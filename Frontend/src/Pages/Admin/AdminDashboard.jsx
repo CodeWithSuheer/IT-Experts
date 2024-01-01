@@ -9,8 +9,9 @@ import { useTheme } from "../../Theme/ThemeContext";
 import { MdDarkMode, MdDelete, MdLightMode } from "react-icons/md";
 import { CSVLink } from "react-csv";
 import { Modal, Button } from "react-bootstrap";
+import Swal from "sweetalert2";
 import DatePicker from "react-datepicker";
-import Swal from 'sweetalert2';
+
 const AdminDashboard = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -38,7 +39,6 @@ const AdminDashboard = () => {
   useEffect(() => {
     dispatch(allFormDataAsync());
   }, [dispatch]);
- 
 
   const handleModalClose = () => {
     setShowModal(false);
@@ -59,15 +59,15 @@ const AdminDashboard = () => {
   //   setEndDate(date);
   // };
 
-  const handleDateRangeChange = () => {
-    const filteredDataByDate = data.filter((rowData) => {
-      const productDate = new Date(rowData.createdAt);
-      return startDate && endDate
-        ? productDate >= startDate && productDate <= endDate
-        : true; // If no date range is selected, consider all dates
-    });
-    return filteredDataByDate;
-  };
+  // const handleDateRangeChange = () => {
+  //   const filteredDataByDate = data.filter((rowData) => {
+  //     const productDate = new Date(rowData.createdAt);
+  //     return startDate && endDate
+  //       ? productDate >= startDate && productDate <= endDate
+  //       : true; // If no date range is selected, consider all dates
+  //   });
+  //   return filteredDataByDate;
+  // };
 
   const filteredData = data.filter((rowData) => {
     const isNameMatch = rowData.name
@@ -77,10 +77,10 @@ const AdminDashboard = () => {
       .toLowerCase()
       .includes(searchTerm.toLowerCase());
 
-    const isDateInRange = handleDateRangeChange().includes(rowData);
+    // const isDateInRange = handleDateRangeChange().includes(rowData);
 
     // Return true if either name or email matches and date is in range
-    return (isNameMatch || isEmailMatch) && isDateInRange;
+    return isNameMatch || isEmailMatch;
   });
   // Calculate the indexes for displaying the current page of data
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -144,7 +144,7 @@ const AdminDashboard = () => {
 
   const handleViewMessage = (message) => {
     Swal.fire({
-      title: 'Full Message',
+      title: "Full Message",
       html: message,
       showCloseButton: true,
       showConfirmButton: false,
@@ -280,14 +280,22 @@ const AdminDashboard = () => {
                   )}
                 </table>
               </div>
-              
+
               <div className="row justify-content-center align-items-center">
                 <div className="col-lg-2 col-md-6  col-sm-2 mt-4">
                   {filteredData.length > itemsPerPage && (
                     <nav aria-label="Page navigation example">
                       <ul className="pagination">
-                        <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
-                          <span className="page-link" onClick={() => handlePageChange(currentPage - 1)} style={{color:'black'}}>
+                        <li
+                          className={`page-item cursor_pointer ${
+                            currentPage === 1 ? "disabled" : ""
+                          }`}
+                        >
+                          <span
+                            className="page-link"
+                            onClick={() => handlePageChange(currentPage - 1)}
+                            style={{ color: "black" }}
+                          >
                             &laquo;
                           </span>
                         </li>
@@ -298,7 +306,7 @@ const AdminDashboard = () => {
                         ].map((_, index) => (
                           <li
                             key={index + 1}
-                            className={`page-item ${
+                            className={`page-item cursor_pointer ${
                               index + 1 === currentPage ? "active" : ""
                             }`}
                           >
@@ -312,7 +320,7 @@ const AdminDashboard = () => {
                           </li>
                         ))}
                         <li
-                          className={`page-item ${
+                          className={`page-item cursor_pointer ${
                             currentPage ===
                             Math.ceil(filteredData.length / itemsPerPage)
                               ? "disabled"
@@ -321,7 +329,7 @@ const AdminDashboard = () => {
                         >
                           <span
                             className="page-link"
-                            style={{color:'black'}}
+                            style={{ color: "black" }}
                             onClick={() => handlePageChange(currentPage + 1)}
                           >
                             &raquo;
@@ -331,8 +339,11 @@ const AdminDashboard = () => {
                     </nav>
                   )}
                 </div>
-                <div className="col-lg-1 mt-1" style={{ marginTop: '-1.15rem' }}>
-                  <p style={{ fontSize: '.9rem', marginBottom: '-1px' }}>
+                <div
+                  className="col-lg-1 mt-1"
+                  style={{ marginTop: "-1.15rem" }}
+                >
+                  <p style={{ fontSize: ".9rem", marginBottom: "-1px" }}>
                     Rows per Page:
                   </p>
                   <select

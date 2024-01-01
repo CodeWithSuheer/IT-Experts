@@ -41,7 +41,8 @@ const Portfolio = () => {
             <img src={portfolio} alt="" />
           </div>
           <div className="portfolio_details_text">
-            <h2 className="portfolio_heading">IT <span style={{color:"#f11900",fontWeight:'600'}}> Expert </span> Portfolio</h2>
+            <h2 className="portfolio_heading"> IT<span style={{ color: "#f11900", fontWeight: "600" }}>Expert</span>Portfolio</h2>
+          
             <p className="portfolio_info">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
               cumque cupiditate! Inventore excepturi tempora repudiandae iste
@@ -68,16 +69,28 @@ const Portfolio = () => {
           <div className="my-5">
             <div className="projects row mx-0">
               {PortfolioData.map((project) => (
-                <div key={project.id} className="my-2 col-sm-6 col-md-4 col-lg-4">
+                <div
+                  key={project.id}
+                  className="my-2 col-sm-6 col-md-4 col-lg-4"
+                >
                   <div class="card project_card">
-                    <div className="window"> 
-                    <img src={project.image} class="card-img-top" alt="..." />
+                    <div className="window">
+                      <img src={project.image} class="card-img-top" alt="..." />
                     </div>
                     <div class="card-body">
                       <h5 class="card-title">{project.name}</h5>
                       <p class="card-text">{project.desc}</p>
 
-                      <a href="#" class="btn btn-danger" style={{backgroundColor:'#f11900',border:'1px solid danger',padding:'12px',borderRadius:10}}>
+                      <a
+                        href="#"
+                        class="btn btn-danger"
+                        style={{
+                          backgroundColor: "#f11900",
+                          border: "1px solid danger",
+                          padding: "12px",
+                          borderRadius: 10,
+                        }}
+                      >
                         Go somewhere
                       </a>
                     </div>
@@ -87,7 +100,7 @@ const Portfolio = () => {
             </div>
           </div>
         </section>
-        <Scroll/>
+        <Scroll />
       </div>
     </>
   );

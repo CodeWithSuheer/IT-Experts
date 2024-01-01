@@ -1,5 +1,5 @@
 .portfolio_cont {
-  background-image: url("/images/IT EXPERTS.png");
+  background-image: url("https://cdn.shopify.com/s/files/1/0704/6378/2946/files/IT_EXPERTS.png?v=1704103274");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -65,7 +65,6 @@
   cursor: pointer;
   overflow: hidden;
 }
-
 
 .window {
   width: 400px;

@@ -65,6 +65,7 @@ const Home = () => {
       return () => observer.disconnect();
     }
   }, []);
+  
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadAll(engine);
@@ -89,6 +90,7 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>It Experts | Home </title>
       </Helmet>
+
       <Particles
         className="tsparticles"
         init={initParticlesEngine}
@@ -442,7 +444,7 @@ const Home = () => {
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div data-aos="fade-up" data-aos-duration={2000}>
               <img
-                src="images/Development person IT EXPERTS.png"
+                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Development_person_IT_EXPERTS.png?v=1704103951"
                 className="personimg img-thumbnail"
                 alt=""
               />

@@ -134,6 +134,10 @@ td {
   transform: translateY(-5px);
 }
 
+.cursor_pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .table-responsive {
     overflow-x: auto;

@@ -33,7 +33,7 @@ const Smm = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration={2000}
             >
-              <img src="/images/smm.jpg" className="smmimg" alt="" />
+              <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/smm.jpg?v=1704103856" className="smmimg" alt="" />
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 SMMpanel">

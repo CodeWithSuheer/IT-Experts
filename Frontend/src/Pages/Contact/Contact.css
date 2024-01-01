@@ -183,8 +183,20 @@ textarea.form-control {
   padding-top: 5px;
 }
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
-  background-color: #f11900 !important;
-  border: none !important;
+  background-color: #F11900 !important;
+  padding-inline:2.5rem  !important;
+  padding-block: 1rem !important;
+  border: 1px solid #F11900 !important;
+}
+div:where(.swal2-container) button:focus{
+ 
+  border: 1px solid #F11900 !important;
+  border:none !important
+}
+
+.swal2-popup {
+  font-size: 1rem !important;
+ font-family: 'Poppins', sans-serif;;
 }
 
 @media only screen and (max-width: 768px) {

@@ -11,7 +11,7 @@ const It = () => {
     <div style={{ backgroundColor: isDarkTheme ? '#242435' : "#fff", color: isDarkTheme ? 'white' : 'black', paddingBottom: 40 }}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>It Experts |  IT Expert Specialist </title>
+        <title>It Experts |  App Development </title>
       </Helmet>
       <div className="ITSpecialist">
 

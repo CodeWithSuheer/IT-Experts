@@ -18,7 +18,7 @@ const Seo = () => {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>It Experts | UI UX Graphic Creative Graphic </title>
+          <title>It Experts | SEO </title>
         </Helmet>
 
         {/* ----------- SEO - HEADER ----------- */}

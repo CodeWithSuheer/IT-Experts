@@ -16,10 +16,16 @@ import market from "../../../../../public/web_service_image/market.png";
 import team from "../../../../../public/web_service_image/team.png";
 import expert from "../../../../../public/web_service_image/expert.png";
 
+import { Helmet } from 'react-helmet'
+
 const GraphicService = () => {
   const { isDarkTheme } = useTheme();
   return (
     <div style={{ backgroundColor: isDarkTheme ? "#242435" : "white" }}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>It Experts | Graphic Services </title>
+      </Helmet>
       {/* ---------------- GRAPHIC SERVICES ---------------- */}
       <section
         className="web_services"

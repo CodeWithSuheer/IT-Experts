@@ -60,9 +60,28 @@ const Contact = () => {
 
         console.log("Server Response:", response);
 
+     
         Swal.fire({
           title: "Submission Successful",
-          text: "Your request has been submitted successfully.Please check your email",
+          text: "Your request has been submitted successfully.Please check your email Your Referce Number is ${refNumber}",
+icon:"success",
+animation:"true ",
+showClass: {
+  popup: `
+    animate__animated
+     animate__fadeInUpBig
+    animate__faster
+  `
+},
+hideClass: {
+  popup: `
+    animate__animated
+    animate__fadeOutDown
+    animate__faster
+  `
+}
+
+       
         });
 
         // Reset the form and set submitting to false
@@ -76,7 +95,26 @@ const Contact = () => {
     
         Swal.fire({
           title: "Submission Failed",
+          icon:"error",
+          animation:'true',
+          showClass: {
+            popup: `
+              animate__animated
+               animate__fadeInUpBig
+              animate__faster
+            `
+          },
+          hideClass: {
+            popup: `
+              animate__animated
+              animate__fadeOutDown
+              animate__faster
+            `
+          }
+        
+     
        
+          
         });
 
         // Reset submitting state

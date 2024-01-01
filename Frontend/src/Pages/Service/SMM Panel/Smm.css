@@ -1,0 +1,225 @@
+.smmimg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.SMMImage {
+    width: 70%;
+    height: 50%;
+}
+
+.expandBuissnessBox {
+    margin-left: 10rem !important;
+}
+
+.expandBuissnessImg {
+    width: 90%;
+    height: 60%;
+    margin-left: 5rem !important;
+}
+
+.increaseAudienceBox {
+    margin-left: 14rem !important;
+}
+
+.increaseAudienceImg {
+    width: 100%;
+}
+.advantageImg{
+    width: 90%;
+}
+.webSMMmob {
+    margin: 10px 0 50px 0;
+}
+
+.ourPackageText {
+    margin: auto;
+}
+
+.SMMpanel {
+    margin: auto;
+    padding: 50px;
+}
+
+.SMMpanel button {
+    background-color: #F11900;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 12px 18px 12px 18px;
+    margin-top: 30px;
+    color: white;
+}
+
+.mediaMerketing {
+    font-size: 2.8rem !important;
+    line-height: 1 !important;
+    font-weight: bold;
+
+}
+
+.mediaMerketingText {
+    font-size: 1.2rem !important;
+    /* margin-top: 10px !important; */
+    line-height: 1.5 !important;
+    text-align: justify;
+    /* word-break: break-all; */
+}
+
+.ourPackage {
+    font-size: 2.5rem !important;
+    font-weight: 700;
+    margin: -12px 0 0 0px;
+}
+
+.ourPackageText {
+    font-size: 1.2rem !important;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.buisnessExpand {
+    font-size: 2.3rem !important;
+    font-weight: 700 !important;
+    margin-top: 3rem !important;
+    color: #252525 !important;
+}
+
+.buisnessExpandText {
+    font-size: 1.2rem !important;
+    text-align: justify;
+    word-break: break-all;
+    font-weight: 400;
+    line-height: 1.5 !important;
+    margin-top: 1rem !important;
+}
+
+.IncreaseTrafic {
+    font-size: 2.1rem !important;
+    font-weight: 700 !important;
+    margin-top: 1.5rem !important;
+    word-break: normal !important;
+    color: #252525 !important;
+}
+
+.socialmedia {
+    padding: 40px 0px 50px 0px;
+}
+
+.socialmedia div {
+    display: flex;
+}
+
+.socialmedia h5 {
+    padding-left: 20px;
+}
+
+.mediaSolutions {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1 !important;
+}
+
+.mediaSolutionsText {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: .8rem !important;
+}
+
+.socialmedia p {
+    /* margin-top: 10px; */
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.socialmedia button {
+    margin-left: 20px;
+    border: none;
+}
+
+.loader-circle-15 {
+    height: 170px;
+    width: 170px;
+    /* border-top: 10px #008744 solid; */
+    /* border-right: 10px #0057e7 solid; */
+    /* border-bottom: 10px #d62d20 solid; */
+    border: 15px solid red;
+    /* border-left: 10px #ffa700 solid; */
+    border-radius: 50%;
+    /* animation: rotation 2s  infinite linear; */
+    /* display: inline-block; */
+    /* position: relative; */
+
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 988px) {
+    .SMMImage {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 764px) {
+    .socialmedia {
+        padding-top: 0;
+        padding-left: 5rem;
+    }
+
+    .instaIconSMM {
+        padding-top: 0px !important;
+    }
+
+    .SMMImage {
+        margin-left: 6rem;
+    }
+
+    .mediaMerketingText {
+        word-break: break-all;
+    }
+
+    .buisnessExpand {
+        margin-top: 50rem;
+    }
+
+    .ourPackage {
+        font-size: 2.5rem !important;
+        font-weight: 700 !important;
+        margin-top: 1rem !important;
+    }
+
+    .package_text_line {
+        margin-top: 2.6rem !important;
+    }
+    .buisnessExpand{
+        margin-top: 0px !important;
+    }
+    .expandBuissnessImg{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .increaseAudienceImg{
+        width: 100%;
+    }
+    .advantageImg{
+        width: 100%;
+    }
+    .IncreaseTraficText{
+        margin-left: 0 !important;
+    }
+    .buisnessExpandBox{
+        margin-top: 0px !important;
+    }
+    .ourPackage{
+        margin: 1.5rem 0 !important;
+    }
+}

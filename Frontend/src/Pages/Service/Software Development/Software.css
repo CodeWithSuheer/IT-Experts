@@ -1,0 +1,289 @@
+.softwareimg {
+  background-image: url("/images/software.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  padding: 120px 0px 10px 0px;
+}
+
+.softwarediv {
+  justify-content: center;
+  display: block;
+}
+
+.softwaretext {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.development {
+  color: white;
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+.sdgetbutton {
+  background-color: #f11900;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 35px 10px 35px;
+  margin: 25px 0 20px 0;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.loremdiv {
+  color: white;
+  font-size: 15px;
+  display: flex;
+}
+
+.loremt {
+  padding: 20px 10px 20px 10px;
+}
+
+.sdworkimg {
+  background-image: url("/images/software2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  padding: 50px 0px 0px 0px;
+}
+
+.workdiv {
+  justify-content: center;
+  margin: auto;
+}
+
+.sdwork {
+  color: white;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  margin: -23px 0 0 12px;
+}
+
+.sdworktext {
+  color: white;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.sdimgsdiv {
+  padding-top: 50px;
+}
+
+.squoteimg {
+  background-image: url("/images/sget\ a\ quote.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 230px;
+  max-width: 380px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.squotetext {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.sstudyimg {
+  background-image: url("/images/scase\ study.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 230px;
+  max-width: 380px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.sstudytext {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.spersonimgdiv {
+  margin-top: 100px;
+  /* width: 10%; */
+}
+
+.sdimg25 {
+  margin-top: 30px;
+  height: 500px;
+  width: 100%;
+}
+
+.text25 {
+  color: #f11900;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.scroll {
+  color: #f11900;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.persuasion {
+  color: #f11900;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.brand {
+  color: #f11900;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.negative {
+  color: #f11900;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10;
+}
+
+/* ----------- HOW WE WORK -----------   */
+
+.how_we_work {
+  text-align: center;
+  padding-top: 6rem !important;
+  padding-bottom: 4rem !important;
+}
+
+.how_we_work_h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+.how_we_work_p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-block: 1.4rem;
+  color: #363636;
+}
+
+.data1 {
+  width: 97%;
+  height: 17.5rem;
+  background-color: #e7e7e7;
+  display: flex;
+  padding-inline: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  margin-block: 1rem;
+  margin-inline: auto;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.data1:hover {
+  transform: scale(1.03);
+}
+
+.data1 p {
+  width: 85%;
+  margin-top: 0.5rem;
+  margin-inline: auto;
+}
+.software_heading {
+  font-size: 3.2rem;
+  font-weight: 600 !important;
+  color: #fff;
+}
+.software_text {
+  color: #dfdfdf;
+  font-size: 1.15rem !important;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sdwork {
+    color: white;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    padding-top: 0.6rem;
+    /* margin: -23px 0 0 12px !important; */
+  }
+
+  .sdworktext {
+    color: white;
+    font-size: 1rem !important;
+    padding-left: 1rem;
+    line-height: 1.4;
+  }
+
+  .softwaretext {
+    color: white;
+    font-size: 2.2rem !important;
+    font-weight: bold;
+  }
+
+  .development {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 1.1rem;
+  }
+  .software_heading {
+    font-size: 3.1rem !important;
+    font-weight: 600 !important;
+    color: #fff;
+  }
+  .software_text {
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .sdimg25 {
+    margin-top: 25px;
+    height: 380px;
+    width: 100%;
+  }
+  .software_text {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 0.7rem;
+  }
+}

@@ -1,0 +1,15 @@
+
+
+.experts {
+  color: red;
+  font-family: "Plaster", sans-serif;
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: "Plaster", sans-serif;
+}
+

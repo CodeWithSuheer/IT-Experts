@@ -1,0 +1,117 @@
+.portfolio_cont {
+  background-image: url("/images/IT EXPERTS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  padding: 200px 0px 200px 0px;
+  background-attachment: fixed;
+}
+
+.portfolio_text {
+  font-size: 2.8rem;
+  color: #f5f5f5;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.5px;
+}
+
+/* ------------ SECTION NO 2 ------------ */
+
+.portfolio_details {
+  padding-block: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.portfolio_details_img,
+.portfolio_details_text {
+  width: 50%;
+}
+
+.portfolio_details_img img {
+  width: 75%;
+}
+
+.portfolio_heading {
+  font-size: 3.2rem !important;
+  padding-block: 0.7rem;
+}
+
+.portfolio_info {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+/* ------------ SECTION NO 3 ------------ */
+
+.portfolio_projects_title {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.projects {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.project_card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+.window {
+  width: 400px;
+  margin: auto;
+
+  cursor: n-resize;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 270px;
+    transition: 8s all ease;
+
+    &:hover {
+      object-position: bottom;
+    }
+  }
+}
+
+/* ------------ MEDIA QUERIES ------------ */
+
+@media only screen and (max-width: 992px) {
+  .portfolio_details {
+    padding-block: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100% !important;
+  }
+  .portfolio_details_text {
+    width: 100% !important;
+    padding-inline: 1rem;
+    padding-bottom: 2rem;
+  }
+  .portfolio_info {
+    font-size: 1.25rem !important;
+    /* word-break: break-all; */
+    /* text-align: justify; */
+  }
+
+  .portfolio_details_img img {
+    width: 100%;
+    border-color: transparent !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+  }
+}

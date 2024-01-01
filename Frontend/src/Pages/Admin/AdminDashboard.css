@@ -1,0 +1,141 @@
+td {
+  cursor: pointer;
+}
+
+.dashboard {
+  max-width: 90%;
+  margin-inline: auto;
+  margin-top: 1rem;
+}
+
+.dashboard_header {
+  background-color: #d22b2b;
+  color: #fff;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  border-radius: 10px;
+}
+
+.dashboard_body {
+  margin-top: 2rem;
+}
+
+.dashboard_body_title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.form-control {
+  height: 48px;
+  padding: 0 15px;
+  line-height: initial;
+  color: #080a3c;
+  background-color: transparent;
+  border: 1px solid #cecfdf;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.form-select {
+  height: 45px;
+  padding: 0 15px;
+  line-height: initial;
+  color: #080a3c;
+  background-color: transparent;
+  border: 1px solid #cecfdf;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: unset !important;
+  box-shadow: unset !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.submit_button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #4a4a4a;
+  color: #fff;
+  position: relative;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.24);
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.submit_button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 8px;
+  background-color: #363636;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.submit_button:hover {
+  color: #e8e8e8;
+}
+
+.submit_button:hover::before {
+  width: 100%;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #d22b2b;
+  color: white !important;
+  border: 1px solid #d22b2b;
+}
+.select-dropdown {
+  border: 1px solid #d22b2b !important;
+}
+.select-dropdown:hover:focus {
+  border: 1px solid #d22b2b;
+}
+
+.select-dropdown option:active {
+  background-color: #d22b2b;
+  color: white;
+}
+.select-dropdown option:hover {
+  background-color: #d22b2b;
+  color: white;
+}
+.select-dropdown option:checked {
+  background-color: #d22b2b;
+  color: white;
+}
+
+.button-hover-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.button-hover-effect:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+}

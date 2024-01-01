@@ -1,0 +1,162 @@
+.Explorers {
+  background-image: url("/images/IT EXPERTS.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* margin-top: 20px; */
+  display: flex;
+  padding: 200px 0px 200px 0px;
+  background-attachment: fixed;
+}
+.explorers {
+  font-size: 4rem;
+  color: #f5f5f5;
+  font-weight: bold;
+  line-height: 1;
+}
+.excreat {
+  font-size: 18px;
+  color: white;
+  font-weight: 300 !important;
+  margin-top: 30px;
+  text-align: justify;
+  word-break: break-all;
+  letter-spacing: 0.5px;
+}
+
+.exbutton {
+  background-color: #f11900;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 35px 10px 35px;
+  margin-top: 100px;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.placediv {
+  margin-top: 80px;
+}
+.places {
+  font-size: 65px;
+  font-weight: bold;
+
+  line-height: 1;
+}
+.plcreat {
+  font-size: 18px;
+  /* font-weight: bold; */
+
+  text-align: justify;
+}
+
+.beachrow1 {
+  margin-top: 70px;
+  --bs-gutter-x: 0;
+  padding: 0 30px 0 30px;
+  margin-left: 10%;
+}
+
+.beachimg1 {
+  width: 100%;
+  height: 100%;
+}
+.beach {
+  font-size: 50px;
+  font-weight: bold;
+}
+.beachtext {
+  padding: 0 10px 0 10px;
+  margin: auto;
+  /* text-align: justify; */
+}
+
+.becreat {
+  font-size: 18px;
+  /* font-weight: bold; */
+  word-break: break-all;
+
+  margin-top: 30px;
+}
+
+.beachrow2 {
+  --bs-gutter-x: 0;
+  padding: 0 30px 0 30px;
+  margin-left: 10%;
+}
+
+.beachimg2 {
+  width: 100%;
+  height: 100%;
+}
+.beachtext2 {
+  margin: auto;
+  padding: 0 10px 0 10px;
+  /* text-align: justify; */
+}
+
+.beachrow3 {
+  --bs-gutter-x: 0;
+  padding: 0 30px 0 30px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .beachrow1 {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+
+  .beachrow2 {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .beach {
+    margin-top: 20px;
+    font-size: 50px !important;
+    font-weight: bold;
+  }
+
+  .beachrow3 {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .excreat {
+    margin-top: 0px;
+  }
+  .places {
+    font-size: 50px !important;
+    font-weight: bold !important;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+  }
+  .becreat {
+    font-size: 18px;
+    /* font-weight: bold; */
+    word-break: break-all;
+
+    margin-top: 10px;
+  }
+}
+
+.beachimg3 {
+  width: 100%;
+  height: 100%;
+}
+
+.aa {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.ll {
+  padding-top: 30px;
+  font-size: 18px;
+}

@@ -1,0 +1,57 @@
+.collapse {
+  margin-top: 30px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-item {
+  padding-left: 35px;
+  font-weight: 600 !important;
+  color: #000000 !important;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 1.3rem !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .nav-item.dropdown.show {
+  color: #f11900 !important;
+}
+
+.logo {
+  width: 8rem;
+}
+.dropdown-item {
+  padding-left: 0.8rem !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem !important;
+
+}
+.dropdown-item:active,
+.dropdown-item:focus {
+  background-color: #f11900 !important;
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  color: black !important;
+
+}
+
+
+.dropdown-item.active {
+  background-color: #f0f0f0 !important;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    z-index: 1000;
+    /* Set your desired z-index value */
+  }
+}

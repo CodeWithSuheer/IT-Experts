@@ -63,26 +63,28 @@ const Contact = () => {
      
         Swal.fire({
           title: "Submission Successful",
-          text: "Your request has been submitted successfully.Please check your email Your Referce Number is ${refNumber}",
-icon:"success",
-animation:"true ",
-showClass: {
-  popup: `
-    animate__animated
-     animate__fadeInUpBig
-    animate__faster
-  `
-},
-hideClass: {
-  popup: `
-    animate__animated
-    animate__fadeOutDown
-    animate__faster
-  `
-}
-
-       
+          html: `
+            <div>Your request has been submitted successfully. Please check your email.</div>
+            <div >Your Reference Number is <span style="color:#F11900">  ${refNumber} </span></div>
+          `,
+          icon: "success",
+          animation: "true",
+          showClass: {
+            popup: `
+              animate__animated
+              animate__fadeInUpBig
+              animate__faster
+            `
+          },
+          hideClass: {
+            popup: `
+              animate__animated
+              animate__fadeOutDown
+              animate__faster
+            `
+          }
         });
+        
 
         // Reset the form and set submitting to false
         resetForm();

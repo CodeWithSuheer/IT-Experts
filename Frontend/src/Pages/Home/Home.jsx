@@ -431,7 +431,7 @@ const Home = () => {
                 IT-Experts
               </span>{" "}
               crew focuses on reworking capability leads into conversions and
-              facilitating on-line commercial enterprise fulfillment thru
+              facilitating on-line commercial enterprise fulfillment through
               time-examined strategies.{" "}
             </p>
             {/* <button className="getbutton">Get Quote</button> */}

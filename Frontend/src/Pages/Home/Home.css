@@ -445,6 +445,152 @@
     }
 
 }
+@media only screen and (max-width: 1280px) and (min-width: 786px) {
+    .img-thumbnail {
+        border: none !important;
+        width: 100% !important;
+        padding-left: 50px !important;
+        /* z-index: 1; */
+        position: relative !important;
+    }
+
+    .supplie {
+        color: #F11900 !important;
+        font-size: 1.8rem !important;
+        font-weight: bold !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+
+    .happy {
+        color: #F11900 !important;
+        font-size: 1.8rem !important;
+        font-weight: bold !important;
+        margin-left: 5px !important;
+    }
+
+    .project {
+        color: #F11900 !important;
+        font-size: 1.8rem !important;
+        font-weight: bold !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .homeTop {
+        /* display: flex !important; */
+        position: absolute;
+        top: 27% !important;
+        /* justify-content:flex-start !important; */
+        /* align-items: center !important; */
+        right: 2% !important;
+        text-align: start !important;
+        /* max-width: 100% !important; */
+        margin-inline: auto !important;
+        left: 5% !important;
+    }
+
+    .homeHead {
+        font-size: 2.28rem !important;
+        /* Adjust font size for smaller screens */
+    }
+
+    .homeHeadText {
+        font-size: 18px !important;
+        /* Adjust font size for smaller screens */
+        margin-top: 20px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .specialist {
+        font-size: 3.5rem !important;
+        /* font-weight: 600; */
+        color: gray;
+        line-height: 1;
+        padding-bottom: 1rem;
+
+    }
+
+    .specialist_pera {
+        font-weight: 400;
+        font-size: 1.2rem !important;
+    }
+
+    .choose {
+        font-size: 2rem !important;
+        font-weight: bold !important;
+        margin-top: 75px;
+        /* font-family: 'Poppins', sans-serif;
+        font-weight: 800; */
+    }
+
+    .wehelp {
+        font-size: 1.25rem !important;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+
+    .five {
+        font-size: 50px !important;
+        /* Adjust font size for smaller screens */
+        line-height: 1;
+        font-weight: 700 !important;
+        /* Adjust line height for smaller screens */
+    }
+
+    .two {
+        font-size: 50px !important;
+        /* Adjust font size for smaller screens */
+        line-height: 1;
+        font-weight: 700 !important;
+        /* Adjust line height for smaller screens */
+    }
+
+    .three {
+        font-size: 50px !important;
+        /* Adjust font size for smaller screens */
+        line-height: 1;
+        font-weight: 700 !important;
+        /* Adjust line height for smaller screens */
+    }
+
+    .sofar {
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        font-size: 30px !important;
+        font-weight: bold !important;
+        line-height: 1;
+        padding-left: 100px;
+    }
+
+    .cost {
+        font-size: 2rem !important;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .services {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .helpclient {
+        text-align: center;
+        font-size: 1.1rem !important;
+    }
+
+    .home_img_buttom img {
+        max-width: 100% !important;
+        margin-inline: auto !important;
+    }
+
+    .deliverd {
+        margin-bottom: 2rem !important;
+    }
+}
 
 @-webkit-keyframes rotate {
     from {

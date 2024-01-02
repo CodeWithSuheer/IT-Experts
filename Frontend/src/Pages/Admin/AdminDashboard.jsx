@@ -11,6 +11,7 @@ import { CSVLink } from "react-csv";
 import { Modal, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
 import DatePicker from "react-datepicker";
+import { Helmet } from "react-helmet";
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
@@ -154,7 +155,11 @@ const AdminDashboard = () => {
   return (
     <>
       <section>
-        <div className="dashboard">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>It Experts | Admin Dashboard </title>
+      </Helmet>
+        <div className="dashboard py-3">
           <div className="dashboard_header px-4">
             <h3>Admin Dashboard</h3>
             <div className="logout_button" style={{ cursor: "pointer" }}>
@@ -281,8 +286,8 @@ const AdminDashboard = () => {
                 </table>
               </div>
 
-              <div className="row justify-content-center align-items-center">
-                <div className="col-lg-2 col-md-6  col-sm-2 mt-4">
+              <div className="row justify-content-center align-items-center ">
+                <div className="col-lg-2 col-md-6 me-lg-5 col-sm-2 mt-5">
                   {filteredData.length > itemsPerPage && (
                     <nav aria-label="Page navigation example">
                       <ul className="pagination">
@@ -340,7 +345,7 @@ const AdminDashboard = () => {
                   )}
                 </div>
                 <div
-                  className="col-lg-1 mt-1"
+                  className="col-lg-1 mt-1 ms-lg-4  "
                   style={{ marginTop: "-1.15rem" }}
                 >
                   <p style={{ fontSize: ".9rem", marginBottom: "-1px" }}>

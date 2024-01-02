@@ -235,7 +235,7 @@ const Smm = () => {
         <div className="container buisnessExpandBox my-5 pt-4">
           <div className="row webSMMmob">
             <div className="col-lg-7 col-md-12 col-sm-12 pt-1">
-              <h4 className=" buisnessExpand">
+              <h4 className=" buisnessExpand" style={{ color: isDarkTheme ? "white" : "black" }}>
                 Expand business with highly targeted{" "}
                 <span style={{ fontWeight: "bold", color: "red" }}>
                   Social Media Marketing (SMM)
@@ -283,7 +283,7 @@ const Smm = () => {
               </div>
             </div>
             <div className="col-lg-7 col-md-12 col-sm-12 pt-2 ms-5 IncreaseTraficText">
-              <h4 className=" IncreaseTrafic">
+              <h4 className=" IncreaseTrafic" style={{color:isDarkTheme?'white':'black'}}>
                 Increase your{" "}
                 <span style={{ fontWeight: "bold", color: "red" }}>
                   Website Traffic

@@ -11,21 +11,24 @@ td {
 .dashboard_header {
   background-color: #d22b2b;
   color: #fff;
-  height: 8rem;
+  padding-block: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 1rem;
   border-radius: 10px;
 }
-
-.dashboard_body {
-  margin-top: 2rem;
+.dashboard_header_heading {
+  margin-top: 0.5rem;
 }
 
 .dashboard_body_title {
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.logout_button {
+  font-size: 1.3rem;
 }
 
 .form-control {
@@ -139,7 +142,18 @@ td {
 }
 
 @media (max-width: 768px) {
+  .dashboard {
+    max-width: 95%;
+    margin-inline: auto;
+    margin-top: 1rem;
+  }
   .table-responsive {
     overflow-x: auto;
+  }
+  .logout_button {
+    font-size: 1.6rem;
+  }
+  .logout_text {
+    display: none;
   }
 }

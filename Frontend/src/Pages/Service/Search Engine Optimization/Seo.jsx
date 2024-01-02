@@ -25,10 +25,10 @@ const Seo = () => {
         <div className="searchengine">
           <div className="seo_header_cont">
             <div className="seo_header">
-              <div className="seo_left mx-2">
+              <div className="seo_left mx-0 ">
                 <h4 className="search">
                   Search Engine{" "}
-                  <span style={{ color: "#f11900" }}>Optimization</span>
+                  <span style={{ color: "#f11900" }}> Optimization</span>
                 </h4>
                 <p className="searchtext">
                   Get your website ranked on search engines. A strong online
@@ -56,16 +56,6 @@ const Seo = () => {
           <div className="row mt-5">
             <div className="col-lg-6 col-md-12 col-sm-12 ">
               <div className="seoServiceContainer">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    marginTop: ".6rem",
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginRight: "1rem",
-                  }}
-                ></p> */}
                 <h4 className="seoServiceHead">
                   <span style={{ color: "#f11900" }}>SEO</span> Services
                 </h4>

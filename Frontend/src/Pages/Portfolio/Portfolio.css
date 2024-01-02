@@ -6,7 +6,7 @@
   width: 100%;
   display: flex;
   padding: 200px 0px 200px 0px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .portfolio_text {
@@ -101,16 +101,26 @@
     padding-inline: 1rem;
     padding-bottom: 2rem;
   }
-  .portfolio_info {
-    font-size: 1.25rem !important;
-    /* word-break: break-all; */
-    /* text-align: justify; */
-  }
 
   .portfolio_details_img img {
     width: 100%;
     border-color: transparent !important;
     border-width: 1px !important;
     border-style: solid !important;
+  }
+
+  .portfolio_text {
+    font-size: 2.7rem !important;
+    line-height: 1.1 !important;
+  }
+
+  .portfolio_heading {
+    font-size: 2.3rem !important;
+    padding-block: 0.7rem;
+    font-weight: 600 !important;
+  }
+
+  .portfolio_info {
+    font-size: 1.05rem !important;
   }
 }

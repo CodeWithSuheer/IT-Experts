@@ -156,17 +156,16 @@ const AdminDashboard = () => {
       <section>
         <div className="dashboard">
           <div className="dashboard_header px-4">
-            <h3>Admin Dashboard</h3>
-            <div className="logout_button" style={{ cursor: "pointer" }}>
-              {/* <span className="darkmode me-4 "> {isDarkTheme ? (
-                <MdLightMode className="fs-3 " onClick={toggleTheme} color="#fff" />
-              ) : (
-                <MdDarkMode className="fs-3 " onClick={toggleTheme} color="#fff" />
-              )}</span> */}
-              <span onClick={handleLogout} className="fs-5 me-3">
-                Logout
-                <RiLogoutBoxRLine className=" fs-3" />
-              </span>
+            <div className="dashboard_header_heading">
+              <h3>Admin Dashboard</h3>
+            </div>
+            <div
+              onClick={handleLogout}
+              className="logout_button"
+              style={{ cursor: "pointer" }}
+            >
+              <span className="logout_text me-2">Logout</span>
+              <RiLogoutBoxRLine className="logout_icon" />
             </div>
           </div>
           <div className="dashboard_body">

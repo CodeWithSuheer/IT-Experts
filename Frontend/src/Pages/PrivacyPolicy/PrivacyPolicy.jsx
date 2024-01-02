@@ -1,10 +1,11 @@
 import React from "react";
 import "./PrivacyPolicy.css";
-
+import { useTheme } from "../../Theme/ThemeContext";
 const PrivacyPolicy = () => {
+  const {isDarkTheme} = useTheme()
   return (
     <>
-      <section className="policy" style={{ minHeight: "100vh" }}>
+      <section className="policy" style={{ minHeight: "100vh",backgroundColor:isDarkTheme?'#242435':'white',color:isDarkTheme?'white':'#252525' }}>
         <div className="container">
           <h1 className="policy_content_heading">Privacy Policy</h1>
 

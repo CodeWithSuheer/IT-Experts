@@ -5,6 +5,7 @@ import Scroll from "../../Component/ScrolltoTap/Scroll";
 import { Helmet } from "react-helmet";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadAll } from "@tsparticles/all";
+import Faq from "../../Component/Faq/Faq";
 
 const Home = () => {
   const [init, setInit] = useState(false);
@@ -431,7 +432,7 @@ const Home = () => {
                 IT-Experts
               </span>{" "}
               crew focuses on reworking capability leads into conversions and
-              facilitating on-line commercial enterprise fulfillment thru
+              facilitating on-line commercial enterprise fulfillment through
               time-examined strategies.{" "}
             </p>
             {/* <button className="getbutton">Get Quote</button> */}
@@ -795,6 +796,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Faq/>
       <Scroll />
     </div>
   );

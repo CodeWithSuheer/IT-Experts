@@ -1,9 +1,11 @@
 import React from "react";
 import "./Ui.css";
+import { Link } from "react-router-dom";
 import { useTheme } from "../../../Theme/ThemeContext";
 import Scroll from "../../../Component/ScrolltoTap/Scroll";
 // import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { Helmet } from "react-helmet";
+import uiux from "../../../../public/images/ui-ux.jpg";
 const Ui = () => {
   const { isDarkTheme } = useTheme();
 
@@ -19,6 +21,21 @@ const Ui = () => {
         <meta charSet="utf-8" />
         <title>It Experts | UI UX Design </title>
       </Helmet>
+
+      <section
+        className="web_services"
+        style={{
+          backgroundImage: `url(${uiux})`,
+        }}
+      >
+        <div className="web_services_cont text-center">
+          <h4 className="software_heading">UI & UX Design Services</h4>
+          <Link to="/Contact" className="btn web_services_btn">
+            Get In Touch
+          </Link>
+        </div>
+      </section>
+
       <div
         className="UIUXrow"
         style={{

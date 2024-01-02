@@ -57,7 +57,7 @@ const AdminLogin = () => {
               <div class="card border-0">
                 <div
                   class="card-body p-0"
-                  style={{ backgroundColor: isDarkTheme ? "#414165" : "white" }}
+                  style={{ backgroundColor: isDarkTheme ? "#242435" : "white" }}
                 >
                   <div class="row no-gutters">
                     <div class="col-lg-6">

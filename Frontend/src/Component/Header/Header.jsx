@@ -80,7 +80,7 @@ const Header = () => {
                 className="collapse navbar-collapse mb-3"
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul className="navbar-nav ms-auto pt-3">
                   <li className="nav-item">
                     <NavLink
                       activeClassName="active"

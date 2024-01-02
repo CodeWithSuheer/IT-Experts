@@ -30,7 +30,6 @@
   padding-left: 0.8rem !important;
   font-weight: 500 !important;
   font-size: 1.2rem !important;
-
 }
 .dropdown-item:active,
 .dropdown-item:focus {
@@ -40,13 +39,10 @@
 
 .dropdown-item:hover {
   color: black !important;
-
 }
-
 
 .dropdown-item.active {
   background-color: #f0f0f0 !important;
-  
 }
 
 @media only screen and (max-width: 768px) {

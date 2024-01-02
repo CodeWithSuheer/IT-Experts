@@ -87,8 +87,15 @@ const WebServices = () => {
 
         {/* ----------- WEB SERVICES -----------   */}
         <section className="container services_showcase how_we_work my-1">
-          <h1 className="services_showcase_title" style={{color:isDarkTheme?'white':'black'}}>
-            OUR <span style={{color:'#f11900',fontWeight:'600'}}>WEB DEVELOPMENT  </span> SERVICES
+          <h1
+            className="services_showcase_title"
+            style={{ color: isDarkTheme ? "white" : "black" }}
+          >
+            OUR{" "}
+            <span style={{ color: "#f11900", fontWeight: "600" }}>
+              WEB DEVELOPMENT{" "}
+            </span>{" "}
+            SERVICES
           </h1>
           <p
             className="services_showcase_text mb-3"
@@ -100,12 +107,11 @@ const WebServices = () => {
             seamlessly to your project requirements and business needs.
           </p>
 
-          <div className="software_data mt-4 py-4" >
-            <div className="row" >
+          <div className="software_data mt-4 py-4">
+            <div className="row">
               {softwareData.map((item) => (
-                <div  key={item.id} className="col-lg-6 col-sm-12" >
-                   
-                  <div  className="data1 web_names">
+                <div key={item.id} className="col-lg-6 col-sm-12">
+                  <div className="data1 web_names">
                     <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
                       <img src={item.logo} alt="" width="50px" />
                       <span className="mx-2">{item.name}</span>
@@ -114,8 +120,6 @@ const WebServices = () => {
                       {item.description}
                     </p>
                   </div>
-               
-
                 </div>
               ))}
             </div>
@@ -124,7 +128,10 @@ const WebServices = () => {
 
         {/* ----------- WEB SERVICES -----------   */}
         <section className="container why_choose_it text-center my-4">
-          <h2 className="why_choose_it_title" style={{color:isDarkTheme?'white':'black'}}>
+          <h2
+            className="why_choose_it_title"
+            style={{ color: isDarkTheme ? "white" : "black" }}
+          >
             WHY CHOOSE{" "}
             <span style={{ color: "#f11900", fontWeight: "600" }}>
               IT EXPERTS
@@ -204,7 +211,7 @@ const WebServices = () => {
             </div>
           </div>
         </div>
-        <Scroll/>
+        <Scroll />
       </div>
     </>
   );

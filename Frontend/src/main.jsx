@@ -24,6 +24,7 @@ import WebServices from "./Pages/Service/WebSite Development/Web Services/Servic
 import GraphicService from "./Pages/Service/Graphic Designing/Graphic Services/GraphicService";
 import BlogServices from "./Pages/Service/Blog Services/BlogServices";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import TermConditions from "./Pages/TermConditions/TermConditions";
 
 
 // Configure NProgress
@@ -54,6 +55,7 @@ const router = createBrowserRouter([
       { path: "/WebServicesBlog/:id", element: <BlogServices /> },
       { path: "/GraphicService", element: <GraphicService /> },
       { path: "/PrivacyPolicy", element: <PrivacyPolicy /> },
+      { path: "/TermConditions", element: <TermConditions /> },
       { path: "*", element: <NotFound /> },
     ],
   },

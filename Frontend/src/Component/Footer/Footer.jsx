@@ -74,16 +74,24 @@ export const Footer = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link to="Blog" onClick={handleLinkClick}>Blog</Link>
+                          <Link to="Blog" onClick={handleLinkClick}>
+                            Blog
+                          </Link>
                         </li>
                         <li>
-                          <Link to="Contact" onClick={handleLinkClick}>Contact</Link>
+                          <Link to="Contact" onClick={handleLinkClick}>
+                            Contact
+                          </Link>
                         </li>
                         <li>
-                          <Link to="Work" onClick={handleLinkClick}>Our Pricing</Link>
+                          <Link to="/WebServices" onClick={handleLinkClick}>
+                            Landing Pages
+                          </Link>
                         </li>
                         <li>
-                          <Link to="Blog" onClick={handleLinkClick}>Latest News</Link>
+                          <Link to="Blog" onClick={handleLinkClick}>
+                            Latest News
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -93,19 +101,34 @@ export const Footer = () => {
                       <h3 className="fs-3">Support</h3>
                       <ul className="support-list">
                         <li>
-                          <Link to="faq.html" onClick={handleLinkClick}>FAQ's</Link>
+                          <Link to="faq.html" onClick={handleLinkClick}>
+                            FAQ's
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/PrivacyPolicy" onClick={handleLinkClick}>Privacy Policy</Link>
+                          <Link to="/PrivacyPolicy" onClick={handleLinkClick}>
+                            Privacy Policy
+                          </Link>
                         </li>
                         <li>
-                          <Link to="#" onClick={handleLinkClick}>Terms &amp; Conditions</Link>
+                          <Link to="/TermConditions" onClick={handleLinkClick}>
+                            Terms &amp; Conditions
+                          </Link>
                         </li>
                         <li>
-                          <Link to="about.html" onClick={handleLinkClick}>Community</Link>
+                          <Link to="/Portfolio" onClick={handleLinkClick}>
+                            Portfolio
+                          </Link>
                         </li>
+                        {/* <li>
+                          <Link to="/About" onClick={handleLinkClick}>
+                            About Us
+                          </Link>
+                        </li> */}
                         <li>
-                        <Link to="Contact" onClick={handleLinkClick}>Contact</Link>
+                          <HashLink className="fs-5" to="/contact#map">
+                            Location
+                          </HashLink>
                         </li>
                       </ul>
                     </div>

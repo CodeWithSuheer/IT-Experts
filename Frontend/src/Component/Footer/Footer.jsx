@@ -18,6 +18,10 @@ export const Footer = () => {
   // console.log("footer token:", token);
   // console.log("footer location:", location.pathname);
 
+  const handleLinkClick = () => {
+    window.scroll(0, 0);
+  };
+
   useEffect(() => {
     const token = localStorage.getItem("token");
     // console.log("footer useEffect token:", token);
@@ -65,19 +69,21 @@ export const Footer = () => {
                       <h3 className="fs-3">Company</h3>
                       <ul className="services-list">
                         <li>
-                          <Link to="About">About Us</Link>
+                          <Link to="About" onClick={handleLinkClick}>
+                            About Us
+                          </Link>
                         </li>
                         <li>
-                          <Link to="Blog">Blog</Link>
+                          <Link to="Blog" onClick={handleLinkClick}>Blog</Link>
                         </li>
                         <li>
-                          <Link to="Contact">Contact</Link>
+                          <Link to="Contact" onClick={handleLinkClick}>Contact</Link>
                         </li>
                         <li>
-                          <Link to="Work">Our Pricing</Link>
+                          <Link to="Work" onClick={handleLinkClick}>Our Pricing</Link>
                         </li>
                         <li>
-                          <Link to="Blog">Latest News</Link>
+                          <Link to="Blog" onClick={handleLinkClick}>Latest News</Link>
                         </li>
                       </ul>
                     </div>
@@ -87,19 +93,19 @@ export const Footer = () => {
                       <h3 className="fs-3">Support</h3>
                       <ul className="support-list">
                         <li>
-                          <a href="faq.html">FAQ's</a>
+                          <Link to="faq.html" onClick={handleLinkClick}>FAQ's</Link>
                         </li>
                         <li>
-                          <a href="#">Privacy Policy</a>
+                          <Link to="/PrivacyPolicy" onClick={handleLinkClick}>Privacy Policy</Link>
                         </li>
                         <li>
-                          <a href="#">Terms &amp; Conditions</a>
+                          <Link to="#" onClick={handleLinkClick}>Terms &amp; Conditions</Link>
                         </li>
                         <li>
-                          <a href="about.html">Community</a>
+                          <Link to="about.html" onClick={handleLinkClick}>Community</Link>
                         </li>
                         <li>
-                          <a href="contact.html">Contact Us</a>
+                        <Link to="Contact" onClick={handleLinkClick}>Contact</Link>
                         </li>
                       </ul>
                     </div>

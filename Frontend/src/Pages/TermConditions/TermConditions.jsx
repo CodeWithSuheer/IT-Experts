@@ -1,10 +1,11 @@
 import React from "react";
 import "./TermConditions.css";
-
+import { useTheme } from "../../Theme/ThemeContext";
 const TermConditions = () => {
+  const {isDarkTheme} = useTheme()
   return (
     <>
-      <section className="TermConditions" style={{ minHeight: "100vh" }}>
+      <section className="TermConditions" style={{ minHeight: "100vh",backgroundColor:isDarkTheme?'#242435':"white",color:isDarkTheme?'white':'#252525' }}>
         <div className="container">
           <h1 className="TermConditions_content_heading">Term & Conditions</h1>
 

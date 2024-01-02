@@ -21,7 +21,7 @@ import { Helmet } from 'react-helmet'
 const GraphicService = () => {
   const { isDarkTheme } = useTheme();
   return (
-    <div style={{ backgroundColor: isDarkTheme ? "#242435" : "white" }}>
+    <div style={{ backgroundColor: isDarkTheme ? "#242435" : "white" ,paddingBottom:".5rem"}}>
       <Helmet>
         <meta charSet="utf-8" />
         <title>It Experts | Graphic Services </title>
@@ -48,7 +48,7 @@ const GraphicService = () => {
 
       {/* ----------- WEB SERVICES -----------   */}
       <section className="container services_showcase how_we_work my-1">
-        <h1 className="services_showcase_title">
+        <h1 className="services_showcase_title"    style={{ color: isDarkTheme ? "white" : "black" }}>
           OUR WEB DEVELOPMENT SERVICES
         </h1>
         <p
@@ -121,13 +121,13 @@ const GraphicService = () => {
 
       {/* ----------- WEB SERVICES -----------   */}
       <section className="container why_choose_it text-center my-4">
-        <h2 className="why_choose_it_title">
+        <h2 className="why_choose_it_title"    style={{ color: isDarkTheme ? "white" : "black" }}>
           WHY CHOOSE{" "}
           <span style={{ color: "#f11900", fontWeight: "600" }}>
             IT EXPERTS
           </span>
         </h2>
-        <p className="why_choose_it_text">
+        <p className="why_choose_it_text"    style={{ color: isDarkTheme ? "white" : "black" }}>
           Using deep domain expertise of our software developers, we create
           impactful digital solutions that drive meaningful change with a
           strategic vision.
@@ -158,7 +158,7 @@ const GraphicService = () => {
       </section>
 
       {/* ----------- WEB SERVICES -----------   */}
-      <div className="container  px-sm-10 mt-3 mb-5 py-1">
+      <div className="container  px-sm-10 mt-3 mb-5 py-3">
         <div className="row specialbox">
           <div className="col-lg-6 col-md-6 col-sm-12 spequot">
             <h4

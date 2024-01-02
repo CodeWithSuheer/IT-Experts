@@ -38,7 +38,6 @@ const Contact = () => {
       company: Yup.string().required("Company Name is required"),
       phone: Yup.string()
         .matches(/^[0-9]+$/, "Contact Number must only contain digits") // Only allow digits
-        .min(10, "Contact Number must be at least 10 digits") // Minimum length of 10 digits
         .required("Contact Number is required"),
       message: Yup.string().required("Message is required"),
     }),

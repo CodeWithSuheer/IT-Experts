@@ -250,7 +250,19 @@ const Header = () => {
                       Blog
                     </NavLink>
                   </li>
-
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/login"
+                      style={{ color: isDarkTheme ? "white" : "#000", }}
+                    >
+                      {/* <RiLoginCircleFill
+                        className="fs-3"
+                        color={isDarkTheme ? "white" : "#000"}
+                      /> */}
+                      Login
+                    </Link>
+                  </li>
                   <li className="nav-item" style={{ cursor: "pointer" }}>
                     <div className="nav-link">
                       {isDarkTheme ? (
@@ -268,32 +280,15 @@ const Header = () => {
                       )}
                     </div>
                   </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link"
-                      to="/login"
-                      style={{ color: isDarkTheme ? "white" : "#000", }}
-                    >
-                      {/* <RiLoginCircleFill
-                        className="fs-3"
-                        color={isDarkTheme ? "white" : "#000"}
-                      /> */}
-                      Login
-                    </Link>
-                  </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       className="nav-link"
                       to="/signup"
                       style={{ color: isDarkTheme ? "white" : "#000", }}
                     >
-                      {/* <RiLoginCircleFill
-                        className="fs-3"
-                        color={isDarkTheme ? "white" : "#000"}
-                      /> */}
                       SignUp
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

@@ -155,7 +155,7 @@ const AdminLogin = () => {
                               </span>
                             </div>
                           </div> */}
-                          <div className="mb-3">
+                          <div className="mb-1">
                             <label
                               for="exampleInputPassword1"
                               style={{

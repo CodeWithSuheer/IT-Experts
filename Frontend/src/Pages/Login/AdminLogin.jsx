@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import { useTheme } from "../../Theme/ThemeContext";
 import { FaEye } from "react-icons/fa";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import "./AdminLogin.css";
 
 const AdminLogin = () => {
@@ -67,7 +68,7 @@ const AdminLogin = () => {
                             class="login_heading h4 "
                             style={{ color: isDarkTheme ? "white" : "#252525" }}
                           >
-                            Admin Login
+                             Login
                           </h3>
                         </div>
 
@@ -78,11 +79,10 @@ const AdminLogin = () => {
                           Welcome back!
                         </h6>
                         <p
-                          class="mt-2 mb-5"
+                          class="mt-2 mb-4"
                           style={{ color: isDarkTheme ? "white" : "#252525" }}
                         >
-                          Enter your email address and password to access admin
-                          dashboard.
+                          Enter your email address and password to access your dashboard.
                         </p>
 
                         {/* ----------- LOGIN -----------  */}
@@ -170,7 +170,11 @@ const AdminLogin = () => {
                               </div>
                             </div>
                           </div>
-
+                          <div>
+                            <p  style={{
+                                color: isDarkTheme ? "white" : "#252525",
+                              }}> If you don't have account then <Link to='/signup' style={{ color: 'red', textDecoration: 'underline' }}>SignUp</Link> </p>
+                          </div>
                           <div className="action_buttons">
                             <button type="submit" class="login_btn">
                               Login

@@ -161,8 +161,8 @@
 
 .shape10 {
   position: absolute;
-  right: 30%;
-  bottom: 25%;
+  right: 25% !important;
+  bottom: 10% !important;
   z-index: -1;
 }
 
@@ -180,7 +180,7 @@
 .shape11 {
   position: absolute;
   left: 25%;
-  bottom: 27%;
+  bottom: 15% !important;
   z-index: -1;
 }
 
@@ -225,8 +225,8 @@
 
 .shape12 {
   position: absolute;
-  left: 10%;
-  bottom: 50%;
+  left: 8% !important;
+  bottom: 60% !important;
   z-index: -1;
 }
 
@@ -243,8 +243,8 @@
 
 .shape13 {
   position: absolute;
-  right: 18%;
-  bottom: 60%;
+  right: 15% !important;
+  bottom: 65% !important;
   z-index: -1;
 }
 

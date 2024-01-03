@@ -59,7 +59,7 @@ const WebServices = () => {
       >
         <Helmet>
           <meta charSet="utf-8" />
-          <title>It Experts | Web Services </title>
+          <title>It Experts |Landing Page </title>
         </Helmet>
 
         <section
@@ -150,7 +150,7 @@ const WebServices = () => {
             </div>
             <div className="why_choose_it_box">
               <img src={client} alt="" width="70px" />
-              <p>Client Centricty</p>
+              <p>Client Centricity</p>
             </div>
             <div className="why_choose_it_box">
               <img src={expert} alt="" width="70px" />

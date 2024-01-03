@@ -101,8 +101,8 @@ export const Footer = () => {
                       <h3 className="fs-3">Support</h3>
                       <ul className="support-list">
                         <li>
-                          <Link to="faq.html" onClick={handleLinkClick}>
-                            FAQ's
+                          <Link to="/login" onClick={handleLinkClick}>
+                           Login
                           </Link>
                         </li>
                         <li>

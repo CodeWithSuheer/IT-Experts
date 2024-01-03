@@ -9,7 +9,7 @@ import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Blog from "./Pages/Blog/Blog";
 import Conatct from "./Pages/Contact/Conatct";
-import Web from "./Pages/Service/WebSite Development/web";
+import Web from "./Pages/Service/WebSite Development/Web";
 import Software from "./Pages/Service/Software Development/Software";
 import It from "./Pages/Service/IT Expert Specialist/It";
 import Ui from "./Pages/Service/UI UX Graphic Creative Graphic/Ui";

@@ -1,0 +1,132 @@
+.account-block {
+    padding: 0;
+    background-image: url(https://bootdey.com/img/Content/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+  }
+  .account-block .overlay {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .account-block .account-testimonial {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+  }
+  
+  .text-theme {
+    color: #5369f8 !important;
+  }
+  
+  .btn-theme {
+    background-color: #ce2714;
+    border-color: #ce2714;
+    color: #fff;
+    padding-inline: 3rem;
+    padding-block: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .btn-theme:hover {
+    background-color: #c93c2c;
+    border-color: #da3523;
+    color: #fff;
+  }
+  
+  /* ------------- CUSTOM CSS ------------- */
+  
+  .signup_heading {
+    font-size: 3rem !important;
+    font-weight: 600;
+  }
+  
+  .action_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup_img {
+    width: 70vh;
+    height: 70vh;
+  }
+  
+  /* ------------- LOGIN BUTTON ------------- */
+  
+  .signup_btn {
+    --color: #ce2714;
+    background-color: #fff;
+    font-family: inherit;
+    display: inline-block;
+    width: 8.5em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+  }
+  
+  .signup_btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .signup_btn:hover {
+    color: #fff;
+  }
+  
+  .signup_btn:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .signup_btn:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .signup_btn:active:before {
+    background: #ce2714;
+    transition: background 0s;
+  }
+  
+  .eye_box span {
+    background-color: #fff !important;
+    padding-block: 0.95rem;
+    border-color: #d1d1d1;
+    border-radius: 0px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-left: none !important;
+  }
+  .password_field {
+    border-right: none !important;
+  }
+  

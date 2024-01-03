@@ -272,12 +272,26 @@ const Header = () => {
                     <Link
                       className="nav-link"
                       to="/login"
-                      style={{ color: "black" }}
+                      style={{ color: isDarkTheme ? "white" : "#000", }}
                     >
-                      <RiLoginCircleFill
+                      {/* <RiLoginCircleFill
                         className="fs-3"
                         color={isDarkTheme ? "white" : "#000"}
-                      />
+                      /> */}
+                      Login
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/signup"
+                      style={{ color: isDarkTheme ? "white" : "#000", }}
+                    >
+                      {/* <RiLoginCircleFill
+                        className="fs-3"
+                        color={isDarkTheme ? "white" : "#000"}
+                      /> */}
+                      SignUp
                     </Link>
                   </li>
                 </ul>

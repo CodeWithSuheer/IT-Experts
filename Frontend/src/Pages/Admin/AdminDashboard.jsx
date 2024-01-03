@@ -161,6 +161,8 @@ const AdminDashboard = () => {
         <div className="dashboard py-3">
           <div className="dashboard_header px-4">
            <div className="dashboard_header_heading">
+
+            <div className="dashboard_header_heading">
               <h3>Admin Dashboard</h3>
             </div>
             <div
@@ -364,6 +366,8 @@ const AdminDashboard = () => {
             </div>
           </div>
         </div>
+        </div>
+      </div>
       </section>
     </>
   );

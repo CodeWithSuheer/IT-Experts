@@ -796,7 +796,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
+      {/* <Faq/> */}
+
+
       <Scroll />
     </div>
   );

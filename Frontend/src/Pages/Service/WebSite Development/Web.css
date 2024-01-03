@@ -1,62 +1,61 @@
 .webdiv {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
-
 .header_img img {
-    padding-inline: 0 !important;
-    margin-inline: 0 !important;
+  padding-inline: 0 !important;
+  margin-inline: 0 !important;
 }
 
 .website {
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1;
-    margin-bottom: 1.5rem !important;
-    color: gray;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 1.5rem !important;
+  color: gray;
 }
 
 .develimgdiv {
-    margin: auto;
+  margin: auto;
 }
 
 .countryimg {
-    background-image: url("/images/Country.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 0.5px solid lightgray;
-    border-radius: 25px;
-    display: flex;
-    min-height: 720px;
-    /* z-index: 11111111111; */
+  background-image: url("/images/Country.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0.5px solid lightgray;
+  border-radius: 25px;
+  display: flex;
+  min-height: 720px;
+  /* z-index: 11111111111; */
 }
 
 .webtext {
-    font-size: 18px;
-    padding: 20px;
-    margin: auto;
-    margin-top: 30px;
-    text-align: justify;
+  font-size: 18px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: justify;
 }
 
 .customword {
-    display: flex;
+  display: flex;
 }
 
 .webquotbutton {
-    background-color: #F11900;
-    border-radius: 15px;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 10px 35px 10px 35px;
-    margin: 40px 0 0 30px;
-    color: white;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    border: none;
+  background-color: #f11900;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 35px 10px 35px;
+  margin: 40px 0 0 30px;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: none;
 }
 
 /* .bggraydiv
@@ -67,131 +66,128 @@
     margin: auto;
 } */
 
-
 .buildrow {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .webuild {
-    padding-right: 1rem;
-    line-height: 0.9;
-    border-right: 2px solid black;
+  padding-right: 1rem;
+  line-height: 0.9;
+  border-right: 2px solid black;
 }
 
 .serviceHead {
-    border-bottom: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
 
 .buildcreat {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 40px 0 0 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 40px 0 0 40px;
 }
 
 .buildquotbutton {
-    background-color: #565555;
-    border-radius: 15px;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 10px 35px 10px 35px;
-    color: white;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    border: none;
+  background-color: #565555;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 35px 10px 35px;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border: none;
 }
 
-
-
 .logodiv1 {
-    margin: 80px 0 25px 0;
-    text-align: center;
+  margin: 80px 0 25px 0;
+  text-align: center;
 }
 
 .logodiv2 {
-    margin: 25px 0 80px 0;
-    text-align: center;
+  margin: 25px 0 80px 0;
+  text-align: center;
 }
 
 .slogan1 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .slogan2 {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .slogan3 {
-    font-size: 6rem;
+  font-size: 5rem;
+  color: grey;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .webuild {
+    border-right: none;
+    border-left: 2px solid #000;
+    padding-left: 0.5rem;
+    transition: all 2s;
+  }
+
+  .slogan1 {
+    font-size: 3rem;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .slogan2 {
+    font-size: 3.5rem;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .slogan3 {
+    font-size: 3rem;
+    color: grey;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 912px) {
+  .slogan1 {
+    font-size: 3rem;
+  }
+
+  .slogan2 {
+    font-size: 4rem;
+  }
+
+  .slogan3 {
+    font-size: 5rem;
     color: grey;
     font-weight: bold;
+  }
+
+  .deal_text {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+  }
 }
 
-@media only screen and (max-width:768px) {
-    .webuild {
-        border-right: none;
-        border-left: 2px solid #000;
-        padding-left: 1rem;
-        transition: all 2s;
-    }
+@media only screen and (max-width: 576px) {
+  .deal_text {
+    font-size: 2.7rem !important;
+    font-weight: 600 !important;
+  }
 
-    .slogan1 {
-        font-size: 3rem;
-    }
+  .webdiv {
+    margin-top: 3rem;
+  }
 
-    .slogan2 {
-        font-size: 5rem;
-    }
-
-    .slogan3 {
-        font-size: 5rem;
-        color: grey;
-        font-weight: bold;
-        margin-bottom: 10px !important;
-    }
-}
-
-@media only screen and (min-width:770px) and (max-width:912px) {
-    .slogan1 {
-        font-size: 3rem;
-    }
-
-    .slogan2 {
-        font-size: 4rem;
-    }
-
-    .slogan3 {
-        font-size: 5rem;
-        color: grey;
-        font-weight: bold;
-    }
-
-    .deal_text {
-        font-size: 2rem !important;
-        font-weight: 500 !important;
-    }
-
-
-
-}
-
-
-@media only screen and (max-width:576px) {
-    .deal_text {
-        font-size: 2.7rem !important;
-        font-weight: 600 !important;
-    }
-
-    .webdiv {
-        margin-top: 3rem;
-    }
-
-    .webtext {
-        font-size: 18px;
-        padding: 20px;
-        margin: auto;
-        margin-top: 10px;
-        text-align: justify;
-    }
+  .webtext {
+    font-size: 18px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: justify;
+  }
 }

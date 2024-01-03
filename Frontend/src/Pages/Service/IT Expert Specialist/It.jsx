@@ -162,7 +162,7 @@ const It = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration={2000}
             >
-              <img src="images/maping.png" className="serumimg" alt="" />
+              <img src="images/maping.png" className="appLastImg2" alt="" />
             </div>
           </div>
 

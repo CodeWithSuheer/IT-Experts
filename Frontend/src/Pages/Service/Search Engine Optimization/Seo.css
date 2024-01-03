@@ -1,9 +1,7 @@
 .searchengine {
-  background-image: url("/images/IT EXPERTS.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   width: 100%;
   display: flex;
   padding: 120px 0px 100px 0px;
@@ -76,7 +74,7 @@
   padding-block: 2rem !important;
 }
 .seo_section_4 {
-  padding-block: 4rem !important;
+  padding-block: 3rem !important;
 }
 
 .seoimg {
@@ -222,7 +220,7 @@
 }
 
 .analytics {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin-inline: auto;
 }
 

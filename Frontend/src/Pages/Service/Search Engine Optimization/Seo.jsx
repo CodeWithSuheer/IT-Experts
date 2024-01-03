@@ -4,6 +4,10 @@ import { useTheme } from "../../../Theme/ThemeContext";
 import Scroll from "../../../Component/ScrolltoTap/Scroll";
 import { Helmet } from "react-helmet";
 import analytics from "../../../../public/images/SEO_analytics.png";
+import seo_banner from "../../../../public/images/seo_banner.jpg";
+import seo_1 from "../../../../public/images/seo_1.jpg";
+import seo_2 from "../../../../public/images/seo_2.jpg";
+import seo_3 from "../../../../public/images/seo_3.jpg";
 const Seo = () => {
   const { isDarkTheme } = useTheme();
 
@@ -22,7 +26,10 @@ const Seo = () => {
         </Helmet>
 
         {/* ----------- SEO - HEADER ----------- */}
-        <div className="searchengine">
+        <div
+          className="searchengine"
+          style={{ backgroundImage: `url(${seo_banner})` }}
+        >
           <div className="seo_header_cont">
             <div className="seo_header">
               <div className="seo_left mx-0 ">
@@ -87,7 +94,7 @@ const Seo = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration={2000}
               >
-                <img src="images/SEO.png" className="seoimg" alt="" />
+                <img src={seo_2} className="seoimg" alt="" />
               </div>
             </div>
 
@@ -225,7 +232,7 @@ const Seo = () => {
         </div>
 
         {/* ----------- SEO - SECTION - 4  ----------- */}
-        <div className="analytics my-5 seo_section_4">
+        <div className="container analytics my-3 seo_section_4">
           <div className="seo_partner">
             <div className="seo_partner_left">
               <h4 className="seo_partner_left-title">
@@ -254,13 +261,13 @@ const Seo = () => {
               </p>
             </div>
             <div className="seo_partner_img">
-              <img src={analytics} alt="" />
+              <img src={seo_3} alt="" style={{ borderRadius: "20px" }} />
             </div>
           </div>
         </div>
 
         {/* ----------- SEO - SECTION - 5  ----------- */}
-        <div className="container">
+        {/* <div className="container">
           <div
             className="row someOfOurWork"
             style={{
@@ -270,16 +277,6 @@ const Seo = () => {
           >
             <div className="col-lg-5 col-md-6 col-sm-12 someOfOurWorkHead ">
               <div className="d-flex">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginTop: ".7rem",
-                    marginRight: ".5rem",
-                  }}
-                ></p> */}
                 <h4
                   className="soworkt"
                   style={{
@@ -339,22 +336,12 @@ const Seo = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="container mt-5 py-2">
+        <div className="container mt-2">
           <div className=" row textimgdiv " style={{ marginTop: "5rem" }}>
             <div className="col-lg-6 col-md-12 col-sm-12 ">
               <div className="d-flex">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginTop: ".9rem",
-                    marginRight: ".5rem",
-                  }}
-                ></p> */}
                 <h4
                   className="seo"
                   style={{
@@ -383,23 +370,13 @@ const Seo = () => {
                 services, employing effective techniques and strategic
                 strategies to enhance your SEO performance
               </p>
-              <div className="d-flex mt-5">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginTop: ".9rem",
-                    marginRight: ".5rem",
-                  }}
-                ></p> */}
+              <div className="d-flex mt-3">
                 <h4
                   className="seo"
                   style={{
                     fontSize: "2.1rem",
                     fontWeight: "600",
-                    paddingBlock: ".8rem",
+                    paddingBlock: ".6rem",
                   }}
                 >
                   Key Elements

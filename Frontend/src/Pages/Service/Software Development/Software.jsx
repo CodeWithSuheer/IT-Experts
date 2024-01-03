@@ -66,7 +66,7 @@ const Software = () => {
             <div className="col-lg-6 col-sm-12">
               <div className="data1">
                 <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
-                  <span>Cybersecurity</span>
+                  <span>Cyber Security</span>
                 </h1>
                 <p style={{ color: isDarkTheme ? "black" : "black" }}>
                   The inclusion of cyber security measures is an integral part

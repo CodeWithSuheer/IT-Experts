@@ -67,8 +67,8 @@ const Smm = () => {
 
         {/* ----------------- SECTION NO 1 ----------------- */}
         <div className="container socialmedia ">
-          <div className="row mx-auto pt-5">
-            <div className="col-lg-3 col-md-6 col-sm-12 p-3 instaIconSMM">
+          <div className="row gx-3 md-gx-4 pt-5">
+            <div className="col-lg-2 col-md-6 col-sm-12 p-3 instaIconSMM">
               <div
                 data-aos="fade-right"
                 data-aos-easing="ease-out-cubic"
@@ -77,20 +77,20 @@ const Smm = () => {
                 <img
                   src="images/instagram.png"
                   alt=""
-                  style={{ width: 110, height: 110 }}
+                  style={{ width:85, height:85 }}
                 />
               </div>
               <div
                 className="pt-3"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h5 className="fs-4  fw-bold">Instagram</h5>
+                <h5 className="fs-5  fw-bold">Instagram</h5>
                 <p className="fs-5" style={{ fontWeight: "500" }}>
                   Services
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div className="col-lg-2 col-md-6 col-sm-12 p-3">
               <div
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
@@ -99,20 +99,20 @@ const Smm = () => {
                 <img
                   src="images/Facebook.png"
                   alt=""
-                  style={{ width: 110, height: 110 }}
+                  style={{ width:85, height:85 }}
                 />
               </div>
               <div
                 className="pt-3"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h5 className="fs-4 fw-bold">Facebook</h5>
+                <h5 className="fs-5 fw-bold">Facebook</h5>
                 <p className="fs-5" style={{ fontWeight: "500", marginTop: 1 }}>
                   Services
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div className="col-lg-2 col-md-6 col-sm-12 p-3">
               <div
                 data-aos="fade-down"
                 data-aos-easing="ease-out-cubic"
@@ -121,36 +121,58 @@ const Smm = () => {
                 <img
                   src="images/youtube.png"
                   alt=""
-                  style={{ width: 110, height: 110 }}
+                  style={{ width:85, height:85 }}
                 />
               </div>
               <div
                 className="pt-3"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h5 className="fs-4 fw-bold">Youtube</h5>
+                <h5 className="fs-5 fw-bold">Youtube</h5>
                 <p className="fs-5" style={{ fontWeight: "500", marginTop: 1 }}>
                   Services
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div className="col-lg-2 col-md-6 col-sm-12 p-3">
               <div
                 data-aos="fade-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration={2000}
               >
                 <img
-                  src="images/twitch.png"
+                  src="images/linkdein.png"
                   alt=""
-                  style={{ width: 110, height: 110 }}
+                  style={{ width:90, height:90 }}
                 />
               </div>
               <div
-                className="pt-1"
+                className="pt-3"
                 style={{ display: "flex", flexDirection: "column" }}
               >
-                <h5 className="fs-4 fw-bold">Twitch</h5>
+                <h5 className="fs-5 fw-bold">Linkdln</h5>
+                <p className="fs-5" style={{ fontWeight: "500", marginTop: 1 }}>
+                  Services
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6 col-sm-12 p-3">
+              <div
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration={2000}
+              >
+                <img
+                  src="images/twitter.png"
+                  alt=""
+                  style={{ width:85, height:85,backgroundColor:"transparent" }}
+                />
+              </div>
+              <div
+                className="pt-3"
+                style={{ display: "flex", flexDirection: "column" }}
+              >
+                <h5 className="fs-5 fw-bold">Twitter</h5>
                 <p className="fs-5" style={{ fontWeight: "500", marginTop: 1 }}>
                   Services
                 </p>

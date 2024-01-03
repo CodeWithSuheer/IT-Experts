@@ -23,9 +23,10 @@ const Web = () => {
     "images/Ror.png",
     "images/C.png",
     "images/JavaScript.png",
-    "images/HTML.png",
     "images/CSS3.png",
     "images/HTML5.png",
+    "images/reactLogo.png",
+    "images/React-native.png"
   ];
   return (
     <div

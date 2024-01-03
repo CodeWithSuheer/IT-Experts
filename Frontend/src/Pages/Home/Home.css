@@ -29,28 +29,10 @@
     margin-top: 35px;
 }
 
-@media only screen and (max-width: 1280px) {
-    .homeTop {
-        display: flex;
-        position: absolute;
-        /* top: 30%; */
-        text-align: center;
-        justify-content: center;
-        right: 12%
-    }
 
-    .homeHead {
-        font-size: 40px;
-        /* Adjust font size for smaller screens */
-    }
 
-    .homeHeadText {
-        font-size: 20px;
-        /* Adjust font size for smaller screens */
-        margin-top: 20px;
-        /* Adjust margin for smaller screens */
-    }
-}
+
+
 
 .personimg {
     margin-top: 75px;
@@ -591,6 +573,7 @@
         margin-bottom: 2rem !important;
     }
 }
+
 
 @-webkit-keyframes rotate {
     from {

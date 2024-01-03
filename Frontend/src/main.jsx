@@ -16,6 +16,7 @@ import Ui from "./Pages/Service/UI UX Graphic Creative Graphic/Ui";
 import Smm from "./Pages/Service/SMM Panel/Smm";
 import Seo from "./Pages/Service/Search Engine Optimization/Seo";
 import AdminLogin from "./Pages/Login/AdminLogin";
+import SignUp from "./Pages/SignUp/SignUp";
 import AdminDashboard from "./Pages/Admin/AdminDashboard";
 import { store } from "./app/Store";
 import { Provider } from "react-redux";
@@ -49,6 +50,7 @@ const router = createBrowserRouter([
       { path: "/Smm", element: <Smm /> },
       { path: "/Seo", element: <Seo /> },
       { path: "/login", element: <AdminLogin /> },
+      { path: "/signup", element: <SignUp /> },
       { path: "/admindashboard", element: <AdminDashboard /> },
       { path: "/Portfolio", element: <Portfolio /> },
       { path: "/WebServices", element: <WebServices /> },

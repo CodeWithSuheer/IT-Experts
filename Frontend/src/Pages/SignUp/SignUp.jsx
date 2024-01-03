@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import login_img from "../../../public/images/login_img.png";
+import signup_img from "../../../public/images/Sign_Up_Img.png";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { loginuserAsync } from "../../features/authSlice";
@@ -8,7 +8,7 @@ import { useTheme } from "../../Theme/ThemeContext";
 import { FaEye } from "react-icons/fa";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import "./AdminLogin.css";
+import "./SignUp.css";
 
 const AdminLogin = () => {
   const navigate = useNavigate();
@@ -63,27 +63,28 @@ const AdminLogin = () => {
                   <div class="row no-gutters">
                     <div class="col-lg-6">
                       <div class="p-5">
-                        <div class="mb-5">
+                        <div class="mb-4">
                           <h3
-                            class="login_heading h4 "
+                            class="signup_heading h4 "
                             style={{ color: isDarkTheme ? "white" : "#252525" }}
                           >
-                             Login
+                            Sign Up
                           </h3>
                         </div>
 
-                        <h6
+                        {/* <h6
                           class="h5 mb-0"
                           style={{ color: isDarkTheme ? "white" : "#252525" }}
                         >
                           Welcome back!
                         </h6>
                         <p
-                          class="mt-2 mb-4"
+                          class="mt-2 mb-5"
                           style={{ color: isDarkTheme ? "white" : "#252525" }}
                         >
-                          Enter your email address and password to access your dashboard.
-                        </p>
+                          Enter your email address and password to access admin
+                          dashboard.
+                        </p> */}
 
                         {/* ----------- LOGIN -----------  */}
                         <form onSubmit={handleLogin}>
@@ -95,6 +96,24 @@ const AdminLogin = () => {
                               }}
                             >
                               User Name
+                            </label>
+                            <input
+                              type="name"
+                              class="form-control"
+                              id="exampleInputEmail1"
+                              value={username}
+                              onChange={(e) => setUsername(e.target.value)}
+                              required
+                            />
+                          </div>
+                          <div class="form-group">
+                            <label
+                              for="exampleInputEmail1"
+                              style={{
+                                color: isDarkTheme ? "white" : "#252525",
+                              }}
+                            >
+                              Email
                             </label>
                             <input
                               type="name"
@@ -136,7 +155,7 @@ const AdminLogin = () => {
                               </span>
                             </div>
                           </div> */}
-                          <div className="mb-3">
+                          <div className="mb-1">
                             <label
                               for="exampleInputPassword1"
                               style={{
@@ -171,13 +190,47 @@ const AdminLogin = () => {
                             </div>
                           </div>
                           <div>
-                            <p  style={{
+                            <label
+                              for="exampleInputPassword1"
+                              style={{
                                 color: isDarkTheme ? "white" : "#252525",
-                              }}> If you don't have account then <Link to='/signup' style={{ color: 'red', textDecoration: 'underline' }}>SignUp</Link> </p>
+                              }}
+                            >
+                              Confirm Password
+                            </label>
+                            <div className="input-group">
+                              <input
+                                type={showPassword ? "text" : "password"}
+                                className="form-control form-control-inputs password_field"
+                                name="password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                autoComplete="password"
+                                required
+                              />
+                              <div className="input-group-append eye_box">
+                                <span
+                                  className="input-group-text"
+                                  onClick={togglePasswordVisibility}
+                                  style={{ cursor: "pointer" }}
+                                >
+                                  {showPassword ? (
+                                    <FaEye />
+                                  ) : (
+                                    <AiOutlineEyeInvisible />
+                                  )}
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <p style={{
+                                color: isDarkTheme ? "white" : "#252525",
+                              }}>Already Have Account? <Link to='/login' style={{ color: 'red', textDecoration: 'underline' }}>Login</Link></p>
                           </div>
                           <div className="action_buttons">
-                            <button type="submit" class="login_btn">
-                              Login
+                            <button type="submit" class="signup_btn">
+                              Sign Up
                             </button>
                           </div>
                         </form>
@@ -185,7 +238,7 @@ const AdminLogin = () => {
                     </div>
 
                     <div class="col-lg-6 d-none d-lg-inline-block">
-                      <img src={login_img} alt="" className="login_img" />
+                      <img src={signup_img} alt="" className="signup_img" />
                     </div>
                   </div>
                 </div>

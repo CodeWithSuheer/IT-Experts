@@ -5,7 +5,7 @@ import Scroll from "../../Component/ScrolltoTap/Scroll";
 import { Helmet } from "react-helmet";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadAll } from "@tsparticles/all";
-import Faq from "../../Component/Faq/Faq";
+
 
 const Home = () => {
   const [init, setInit] = useState(false);
@@ -796,7 +796,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Faq />
+
+      {/* <Faq/> */}
+
+
       <Scroll />
     </div>
   );

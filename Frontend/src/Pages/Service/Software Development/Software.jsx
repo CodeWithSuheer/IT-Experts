@@ -55,7 +55,9 @@ const Software = () => {
             <div className="col-lg-6 col-sm-12">
               <div className="data1">
                 <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
-                  <span>Software Prototyping</span>
+                  <span style={{ color: isDarkTheme ? "#f11900" : "#f11900" }}>
+                    Software Prototyping
+                  </span>
                 </h1>
                 <p style={{ color: isDarkTheme ? "black" : "black" }}>
                   Our process begins with the creation of a software prototype,
@@ -66,7 +68,9 @@ const Software = () => {
             <div className="col-lg-6 col-sm-12">
               <div className="data1">
                 <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
-                  <span>Cyber Security</span>
+                  <span style={{ color: isDarkTheme ? "#f11900" : "#f11900" }}>
+                    Cyber Security
+                  </span>
                 </h1>
                 <p style={{ color: isDarkTheme ? "black" : "black" }}>
                   The inclusion of cyber security measures is an integral part
@@ -81,7 +85,9 @@ const Software = () => {
             <div className="col-lg-6 col-sm-12">
               <div className="data1">
                 <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
-                  <span>Q/A Testingn</span>
+                  <span style={{ color: isDarkTheme ? "#f11900" : "#f11900" }}>
+                    Q/A Testingn
+                  </span>
                 </h1>
                 <p style={{ color: isDarkTheme ? "black" : "black" }}>
                   We constantly test both the software and its code to reduce
@@ -92,7 +98,9 @@ const Software = () => {
             <div className="col-lg-6 col-sm-12">
               <div className="data1">
                 <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
-                  <span>Web Application Development</span>
+                  <span style={{ color: isDarkTheme ? "#f11900" : "#f11900" }}>
+                    Web Application Development
+                  </span>
                 </h1>
                 <p style={{ color: isDarkTheme ? "black" : "black" }}>
                   Our software websites prioritize optimal results and

@@ -8,6 +8,8 @@ import seo_banner from "../../../../public/images/seo_banner.jpg";
 import seo_1 from "../../../../public/images/seo_1.jpg";
 import seo_2 from "../../../../public/images/seo_2.jpg";
 import seo_3 from "../../../../public/images/seo_3.jpg";
+import seo_4 from "../../../../public/images/seo_4.jpg";
+import seo_5 from "../../../../public/images/seo_5.jpg";
 const Seo = () => {
   const { isDarkTheme } = useTheme();
 
@@ -261,7 +263,15 @@ const Seo = () => {
               </p>
             </div>
             <div className="seo_partner_img">
-              <img src={seo_3} alt="" style={{ borderRadius: "20px" }} />
+              <img
+                src={seo_3}
+                alt=""
+                style={{
+                  borderRadius: "20px",
+                  minHeight: "20rem",
+                  minWidth: "33rem",
+                }}
+              />
             </div>
           </div>
         </div>
@@ -424,21 +434,11 @@ const Seo = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration={2000}
               >
-                <img src="images/SEO.png" className="seoimg" alt="" />
+                <img src={seo_5} className="seoimg" alt="" />
               </div>
             </div>
             <div className="offset-lg-1 col-lg-6 col-md-12 col-sm-12 ">
               <div className="d-flex mt-1 ">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginTop: ".9rem",
-                    marginRight: ".5rem",
-                  }}
-                ></p> */}
                 <h4
                   className="seo"
                   style={{
@@ -465,17 +465,7 @@ const Seo = () => {
                 significant domain authority, ensuring your website's exposure
                 and visibility in search engines.
               </p>
-              <div className="d-flex mt-5">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginTop: ".9rem",
-                    marginRight: ".5rem",
-                  }}
-                ></p> */}
+              <div className="d-flex mt-2">
                 <h4
                   className="seo"
                   style={{
@@ -522,16 +512,6 @@ const Seo = () => {
           <div className=" row textimgdiv mt-5">
             <div className="col-lg-6 col-md-12 col-sm-12 ">
               <div className="d-flex ">
-                {/* <p
-                  style={{
-                    width: 40,
-                    height: 12,
-                    backgroundColor: "#F11900",
-                    display: "flex",
-                    marginTop: ".9rem",
-                    marginRight: ".5rem",
-                  }}
-                ></p> */}
                 <h4
                   className="seo"
                   style={{
@@ -567,15 +547,20 @@ const Seo = () => {
                 </li>
               </ul>
             </div>
-            {/* <div className=" col-lg-5 col-md-12 col-sm-12">
-          <div
-            data-aos="zoom-out-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration={2000}
-          >
-            <img src="images/SEO.png" className="serviceInclude" style={{marginTop: 0}} alt="" />
-          </div>
-        </div> */}
+            <div className=" col-lg-5 col-md-12 col-sm-12">
+              <div
+                data-aos="zoom-out-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration={2000}
+              >
+                <img
+                  src="images/SEO.png"
+                  className="serviceInclude"
+                  style={{ marginTop: 0 }}
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
         <Scroll />

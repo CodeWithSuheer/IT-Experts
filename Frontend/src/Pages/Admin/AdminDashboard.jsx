@@ -155,10 +155,10 @@ const AdminDashboard = () => {
   return (
     <>
       <section>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>It Experts | Admin Dashboard </title>
-      </Helmet>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>It Experts | Admin Dashboard </title>
+        </Helmet>
         <div className="dashboard py-3">
           <div className="dashboard_header px-4">
             <div className="dashboard_header_heading">

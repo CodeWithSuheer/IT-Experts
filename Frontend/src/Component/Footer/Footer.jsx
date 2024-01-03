@@ -102,7 +102,7 @@ export const Footer = () => {
                       <ul className="support-list">
                         <li>
                           <Link to="/login" onClick={handleLinkClick}>
-                           Login
+                            Login
                           </Link>
                         </li>
                         <li>
@@ -126,7 +126,7 @@ export const Footer = () => {
                           </Link>
                         </li> */}
                         <li>
-                          <HashLink className="fs-5" to="/contact#map">
+                          <HashLink className="" to="/contact#map">
                             Location
                           </HashLink>
                         </li>
@@ -138,15 +138,15 @@ export const Footer = () => {
                       <h3 className="fs-3">Contact Info</h3>
                       <ul className="footer-contact-info">
                         <li>
-                          <HashLink className="fs-5" to="/contact#map">
-                            office # 20، shabnam center, Shalimar Link Road,
+                          <HashLink className="" to="/contact#map">
+                            Office # 20، shabnam center, Shalimar Link Road,
                             Ramgarh, Lahore, Punjab 54000, Pakistan
                           </HashLink>
                         </li>
                         <li>
                           Email:{" "}
                           <ExternalLink
-                            className="fs-5"
+                            className=""
                             href="mailto:strax@cybersolclub.com"
                           >
                             info@it-experts.com.pk
@@ -154,7 +154,7 @@ export const Footer = () => {
                         </li>
                         <li>
                           Phone:{" "}
-                          <a className="fs-5" href="tel:+92 320 851 2825">
+                          <a className="" href="tel:+92 320 851 2825">
                             042-36860072
                           </a>
                         </li>

@@ -1,15 +1,16 @@
 import React from "react";
-import "./Seo.css";
+import { Helmet } from "react-helmet";
 import { useTheme } from "../../../Theme/ThemeContext";
 import Scroll from "../../../Component/ScrolltoTap/Scroll";
-import { Helmet } from "react-helmet";
 import analytics from "../../../../public/images/SEO_analytics.png";
 import seo_banner from "../../../../public/images/seo_banner.jpg";
 import seo_1 from "../../../../public/images/seo_1.jpg";
 import seo_2 from "../../../../public/images/seo_2.jpg";
 import seo_3 from "../../../../public/images/seo_3.jpg";
-import seo_4 from "../../../../public/images/seo_4.jpg";
 import seo_5 from "../../../../public/images/seo_5.jpg";
+import seo_7 from "../../../../public/images/seo_7.jpg";
+import "./Seo.css";
+
 const Seo = () => {
   const { isDarkTheme } = useTheme();
 
@@ -262,10 +263,11 @@ const Seo = () => {
                 visibility in search engine results.
               </p>
             </div>
-            <div className="seo_partner_img">
+            <div className="">
               <img
                 src={seo_3}
                 alt=""
+                className="seo_3_img"
                 style={{
                   borderRadius: "20px",
                   minHeight: "20rem",
@@ -509,7 +511,7 @@ const Seo = () => {
         </div>
 
         <div className="container">
-          <div className=" row textimgdiv mt-5">
+          <div className=" row textimgdiv mt-3">
             <div className="col-lg-6 col-md-12 col-sm-12 ">
               <div className="d-flex ">
                 <h4
@@ -554,9 +556,9 @@ const Seo = () => {
                 data-aos-duration={2000}
               >
                 <img
-                  src="images/SEO.png"
+                  src={seo_7}
                   className="serviceInclude"
-                  style={{ marginTop: 0 }}
+                  style={{ marginTop: "0" }}
                   alt=""
                 />
               </div>

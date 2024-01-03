@@ -10,7 +10,7 @@ import { MdDarkMode, MdDelete, MdLightMode } from "react-icons/md";
 import { CSVLink } from "react-csv";
 import { Modal, Button } from "react-bootstrap";
 import Swal from "sweetalert2";
-import DatePicker from "react-datepicker";
+import DatePicker from "react-datepicker"; 
 import { Helmet } from "react-helmet";
 
 const AdminDashboard = () => {

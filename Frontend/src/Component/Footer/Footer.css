@@ -2,11 +2,10 @@
   position: relative;
   z-index: 1;
   padding-block: 7rem;
-
 }
 
 .footer-area::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -15,14 +14,14 @@
   z-index: -1;
   -webkit-animation: imageChange 1s linear 1s infinite;
   animation: imageChange 1s linear 1s infinite;
-  background-image: url('/public/footer-shape1.png');
+  background-image: url("/public/footer-shape1.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .footer-area::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -31,7 +30,7 @@
   z-index: -1;
   -webkit-animation: imageChangeTwo 1s linear 1s infinite;
   animation: imageChangeTwo 1s linear 1s infinite;
-  background-image: url('/public/footer-shape2.png');
+  background-image: url("/public/footer-shape2.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,9 +84,8 @@
 .single-footer-widget .services-list li {
   color: #acc5db;
   margin-block: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   list-style-type: none !important;
-
 }
 
 .single-footer-widget .services-list li:last-child {
@@ -114,7 +112,7 @@
 .single-footer-widget .support-list li {
   color: #acc5db;
   margin-block: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .single-footer-widget .support-list li:last-child {
@@ -125,7 +123,6 @@
   display: inline-block;
   color: #acc5db;
   text-decoration: none;
-
 }
 
 .single-footer-widget .support-list li a:hover {
@@ -151,9 +148,10 @@
   display: inline-block;
   color: #acc5db;
   text-decoration: none;
-
 }
-
+.footer-contact-info {
+  font-size: 1.1rem !important;
+}
 .single-footer-widget .footer-contact-info li a:hover {
   color: #ffffff;
 }
@@ -166,7 +164,6 @@
   /* Default margin-top */
 
   /* Responsive Styles */
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -177,7 +174,6 @@
     margin-top: 0px;
 
     /* Responsive Styles */
-
   }
 
   .single-footer-widget .social li a {
@@ -190,8 +186,6 @@
     font-size: 17px;
     border-radius: 2px;
     color: #080a3c;
-
-
   }
 
   .single-footer-widget h3 {
@@ -200,8 +194,6 @@
     font-weight: 500;
     font-size: 22px;
   }
-
-
 }
 
 .single-footer-widget .social li {
@@ -219,8 +211,6 @@
   font-size: 17px;
   border-radius: 2px;
   color: #080a3c;
-
-
 }
 
 .single-footer-widget .social li a:hover {
@@ -247,7 +237,7 @@
 }
 
 .copyright-area p a:hover {
-  color: #F11900;
+  color: #f11900;
 }
 
 @-webkit-keyframes imageChange {

@@ -147,6 +147,28 @@ const Smm = () => {
                 className="pt-1"
                 style={{ display: "flex", flexDirection: "column" }}
               >
+                <h5 className="fs-4 fw-bold">Linkdln</h5>
+                <p className="fs-5" style={{ fontWeight: "500", marginTop: 1 }}>
+                  Services
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 p-3">
+              <div
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration={2000}
+              >
+                <img
+                  src="images/twitch.png"
+                  alt=""
+                  style={{ width: 110, height: 110 }}
+                />
+              </div>
+              <div
+                className="pt-1"
+                style={{ display: "flex", flexDirection: "column" }}
+              >
                 <h5 className="fs-4 fw-bold">Twitch</h5>
                 <p className="fs-5" style={{ fontWeight: "500", marginTop: 1 }}>
                   Services

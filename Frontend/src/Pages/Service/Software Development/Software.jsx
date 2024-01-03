@@ -66,7 +66,7 @@ const Software = () => {
             <div className="col-lg-6 col-sm-12">
               <div className="data1">
                 <h1 style={{ color: isDarkTheme ? "black" : "black" }}>
-                  <span>Cybersecurity</span>
+                  <span>Cyber Security</span>
                 </h1>
                 <p style={{ color: isDarkTheme ? "black" : "black" }}>
                   The inclusion of cyber security measures is an integral part
@@ -117,7 +117,7 @@ const Software = () => {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-            <p className="fs-5 d-flex h-100 w-100 justify-content-center align-items-center">
+            <p className="we_build_software_text fs-5 d-flex h-100 w-100 justify-content-center align-items-center">
               We excel in crafting Softwares that actively engage your
               customers, showcasing captivating landing pages that foster
               customer acquisition and retention. Whether it's Static, Dynamic,

@@ -216,6 +216,11 @@
   transform: scale(1.03);
 }
 
+.data1 h1 span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .data1 p {
   width: 85%;
   margin-top: 0.5rem;
@@ -285,5 +290,13 @@
     width: 90%;
     margin-inline: auto;
     margin-top: 0.7rem;
+  }
+  .we_build_software_text {
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+  }
+  .data1 h1 span {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
   }
 }

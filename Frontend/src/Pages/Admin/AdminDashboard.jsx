@@ -160,6 +160,16 @@ const AdminDashboard = () => {
       </Helmet>
         <div className="dashboard py-3">
           <div className="dashboard_header px-4">
+            <div className="dashboard_header_heading">
+              <h3>Admin Dashboard</h3>
+            </div>
+            <div
+              onClick={handleLogout}
+              className="logout_button"
+              style={{ cursor: "pointer" }}
+            >
+              <span className="logout_text me-2">Logout</span>
+              <RiLogoutBoxRLine className="logout_icon" />
             <h3>Admin Dashboard</h3>
             <div className="logout_button" style={{ cursor: "pointer" }}>
          

@@ -33,7 +33,11 @@ const Smm = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration={2000}
             >
-              <img src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/smm.jpg?v=1704103856" className="smmimg" alt="" />
+              <img
+                src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/smm.jpg?v=1704103856"
+                className="smmimg"
+                alt=""
+              />
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 SMMpanel">
@@ -49,7 +53,6 @@ const Smm = () => {
                 paddingTop: ".7rem",
               }}
             >
-              {" "}
               Social Media Marketing, or SMM, helps you to connect with your
               audience on a personal level using platforms like Instagram,
               Facebook, Twitter, and more. It focuses on helping you gain
@@ -198,7 +201,7 @@ const Smm = () => {
                 Instagram, Facebook, Twitter, and more to boost your content and
                 post content that brings your customers closer to your brand. We
                 ensure that the brand identity stays consistent across all
-                platforms to enhance your brand’s image.
+                platforms to enhance your brand’s image. 
               </p>
             </div>
             <div className="offset-lg-1 col-lg-3 offset-md-2 col-md-10 col-sm-10">
@@ -227,16 +230,6 @@ const Smm = () => {
             </div>
             <div className="col-lg-1 col-md-1 col-sm-12" />
             <div className="col-lg-5 col-md-5 col-sm-12 ourPackageText">
-              {/* <div className='d-flex'> */}
-              {/* <p className='package_text_line'
-              style={{
-                width: 40,
-                height: 10,
-                backgroundColor: "#F11900",
-                display: "flex",
-                marginTop: '15px'
-              }}
-            ></p> */}
               <h4 className="ourPackage">
                 Our{" "}
                 <span style={{ color: "red", fontWeight: "bold" }}>

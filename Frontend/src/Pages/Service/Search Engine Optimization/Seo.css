@@ -1,9 +1,7 @@
 .searchengine {
-  background-image: url("/images/IT EXPERTS.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   width: 100%;
   display: flex;
   padding: 120px 0px 100px 0px;
@@ -39,6 +37,7 @@
   line-height: 1;
   margin-top: 2rem;
   line-height: 1.2 !important;
+  word-wrap: normal;
 }
 .searchtext {
   font-size: 1.25rem !important;
@@ -75,7 +74,7 @@
   padding-block: 2rem !important;
 }
 .seo_section_4 {
-  padding-block: 4rem !important;
+  padding-block: 3rem !important;
 }
 
 .seoimg {
@@ -221,7 +220,7 @@
 }
 
 .analytics {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin-inline: auto;
 }
 
@@ -293,13 +292,14 @@
   }
   .seoServiceHead,
   .seoServiceHead span {
-    font-size: 3.5rem !important;
+    font-size: 2.6rem !important;
     font-weight: 700 !important;
   }
 
   .seoservicetext {
-    font-size: 1.3rem !important;
+    font-size: 1.1rem !important;
     font-weight: 400 !important;
+    letter-spacing: 0.5px;
     line-height: 1.6;
     margin-top: 0.9rem !important;
   }
@@ -339,18 +339,36 @@
     width: 80% !important;
     margin: 0rem;
     margin-left: 3.4rem !important;
-    margin-top: .7rem !important;
-   
+    margin-top: 0.7rem !important;
   }
   .seo_partner_img img {
     width: 80% !important;
     height: 80% !important;
   }
-  .buildcreat
-  {
+  .buildcreat {
     margin-top: 2.5rem !important;
   }
-  
+  .seo_header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .seo_right {
+    width: 100%;
+    margin-left: 0rem !important;
+  }
+  .seo_right img {
+    width: 80%;
+    margin-inline: auto;
+    border-radius: 20px;
+  }
+  .search {
+    font-size: 2.7rem !important;
+  }
+  .searchtext {
+    font-size: 1.15rem !important;
+    font-weight: 400 !important;
+  }
 }
 
 @media (max-width: 1200px) {

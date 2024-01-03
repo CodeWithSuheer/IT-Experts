@@ -41,8 +41,15 @@ const Portfolio = () => {
             <img src={portfolio} alt="" />
           </div>
           <div className="portfolio_details_text">
-            <h2 className="portfolio_heading"> IT<span style={{ color: "#f11900", fontWeight: "600" }}>Expert</span>Portfolio</h2>
-          
+            <h2 className="portfolio_heading">
+              IT
+              <span style={{ color: "#f11900", fontWeight: "600" }}>
+                {" "}
+                Expert{" "}
+              </span>
+              Portfolio
+            </h2>
+
             <p className="portfolio_info">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
               cumque cupiditate! Inventore excepturi tempora repudiandae iste
@@ -64,10 +71,14 @@ const Portfolio = () => {
         {/* ------------ SECTION NO 3 ------------ */}
         <section className="container portfolio_projects text-center my-5">
           <h2 className="portfolio_projects_title">
-            Our <span style={{ color: "#f11900" }}>Impressive</span> Portfolio
+            Our{" "}
+            <span style={{ color: "#f11900", fontWeight: "600" }}>
+              Impressive
+            </span>{" "}
+            Portfolio
           </h2>
           <div className="my-5">
-            <div className="projects row mx-0" >
+            <div className="projects row mx-0">
               {PortfolioData.map((project) => (
                 <div
                   key={project.id}
@@ -77,7 +88,10 @@ const Portfolio = () => {
                     <div className="window">
                       <img src={project.image} class="card-img-top" alt="..." />
                     </div>
-                    <div class="card-body" style={{backgroundColor:"rgb(250, 248, 248)"}}>
+                    <div
+                      class="card-body"
+                      style={{ backgroundColor: "rgb(250, 248, 248)" }}
+                    >
                       <h5 class="card-title">{project.name}</h5>
                       <p class="card-text">{project.desc}</p>
 

@@ -66,7 +66,7 @@ const Home = () => {
       return () => observer.disconnect();
     }
   }, []);
-  
+
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadAll(engine);
@@ -796,7 +796,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Faq/>
+      <Faq />
       <Scroll />
     </div>
   );

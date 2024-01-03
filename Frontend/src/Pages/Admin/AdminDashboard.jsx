@@ -20,10 +20,11 @@ const AdminDashboard = () => {
   const { isDarkTheme, toggleTheme } = useTheme();
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(10);
+  const [itemsPerPage, setItemsPerPage] = useState(5);
   const [selectedMessage, setSelectedMessage] = useState("");
   const [showModal, setShowModal] = useState(false);
- 
+  const [startDate, setStartDate] = useState(null);
+  const [endDate, setEndDate] = useState(null);
 
   const handleDelete = (userId) => {
     console.log(userId);
@@ -160,8 +161,6 @@ const AdminDashboard = () => {
       </Helmet>
         <div className="dashboard py-3">
           <div className="dashboard_header px-4">
-           <div className="dashboard_header_heading">
-
             <div className="dashboard_header_heading">
               <h3>Admin Dashboard</h3>
             </div>
@@ -172,13 +171,6 @@ const AdminDashboard = () => {
             >
               <span className="logout_text me-2">Logout</span>
               <RiLogoutBoxRLine className="logout_icon" />
-            <h3>Admin Dashboard</h3>
-            <div className="logout_button" style={{ cursor: "pointer" }}>
-         
-              <span onClick={handleLogout} className="fs-5 me-3">
-                Logout
-                <RiLogoutBoxRLine className=" fs-3" />
-              </span>
             </div>
           </div>
           <div className="dashboard_body">
@@ -198,7 +190,25 @@ const AdminDashboard = () => {
                   />
                 </div>
 
-              
+                {/* <div className="col-lg-3">
+                  <label>Start Date:</label>
+                  <DatePicker
+                    selected={startDate}
+                    onChange={handleStartDateChange}
+                    className="form-control"
+                    dateFormat="yyyy-MM-dd"
+                  />
+                </div>
+
+                <div className="col-lg-3">
+                  <label>End Date:</label>
+                  <DatePicker
+                    selected={endDate}
+                    onChange={handleEndDateChange}
+                    className="form-control"
+                    dateFormat="yyyy-MM-dd"
+                  />
+                </div> */}
 
                 <div className="col-lg-2">{handleExportCSV()}</div>
               </div>
@@ -366,8 +376,6 @@ const AdminDashboard = () => {
             </div>
           </div>
         </div>
-        </div>
-      </div>
       </section>
     </>
   );

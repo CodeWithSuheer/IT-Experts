@@ -251,17 +251,17 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <Link
+                    <NavLink
                       className="nav-link"
                       to="/login"
-                      style={{ color: isDarkTheme ? "white" : "#000", }}
+                      style={{ color: isDarkTheme ? "white" : null, }}
                     >
                       {/* <RiLoginCircleFill
                         className="fs-3"
                         color={isDarkTheme ? "white" : "#000"}
                       /> */}
                       Login
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className="nav-item" style={{ cursor: "pointer" }}>
                     <div className="nav-link">

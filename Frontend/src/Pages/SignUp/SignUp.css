@@ -116,6 +116,10 @@
     background: #ce2714;
     transition: background 0s;
   }
+  .invalid-feedback
+  {
+    color: red;
+  }
   
   .eye_box span {
     background-color: #fff !important;
